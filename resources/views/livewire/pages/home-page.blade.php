@@ -1,18 +1,24 @@
-<div class="    ">
+<div class=" ">
     <section class="lg:min-h-screen banner relative pb-16 lg:pb-28">
-        <div class="absolute inset-0 bg-gradient-to-b from-[#470858]/80 to-[#92278F]/10"></div>
-        <div class="flex items-center justify-center relative pt-10 md:pt-14 lg:pt-32">
-            <div class="text-center max-w-5xl w-full mx-auto px-1">
-                <div class="flex flex-col items-center w-full">
-                    <!-- <img src="assets/images/logo/logo.png" class="w-32 md:w-44" alt=""> -->
-                    <img src="assets/images/logo/logo-event-light.png" class="w-1/2" alt="">
+        <div class="absolute inset-0 bg-gradient-to-t from-[#286786FF]/90 from-10% to-[#0059A8]/40"></div>
+        <div class="flex z-10 flex-col lg:flex-row justify-evenly items-start gap-8 relative pt-10 md:pt-14 lg:pt-32">
+            <div class="px-1 order-2 lg:order-1">
+                <img src="assets/images/banner.png" class="w-full max-w-md rounded-xl" alt="Banner">
+            </div>
+            <div class="px-5 order-1 lg:order-2">
+                <div class="flex text-start w-fit relative">
+                    <img src="assets/images/logo/icon.png" alt="Icon"
+                        class="absolute lg:right-10 lg:-top-22 right-0 -top-15 w-32 lg:w-36">
+                    <h1 class="text-2xl lg:text-4xl text-[#FFCD03] uppercase font-bold">Indonesian Burn & <br> wound
+                        care meeting
+                        <span class="badge bg-red-700 text-white border-none lowercase text-xs">in conjuntion
+                            with</span>
+                        <br>7<sup class="lowercase">th</sup> updates in plastic surgery
+                    </h1>
                 </div>
-                <!-- <h1 class="md:text-6xl text-3xl font-bold text-white mt-2 md:mt-5 lg:mt-10">28<sup>th</sup> InaPRAS</h1>
-                <p class="text-white font-normal mt-2">Annual Scientific Meeting of the Indonesian Association of Plastic Reconstructive and Aesthetic Surgeons</p> -->
-                <h3 class="text-yellow-400 font-semibold text-xl md:text-3xl italic mt-2 md:mt-5 lg:mt-7 ">" Aesthetics
-                    and Beyond "</h3>
-                <p class="text-slate-100 mt-4">July 30<sup>th</sup> – August 2<sup>nd</sup>, 2025 <br> JW Marriot Hotel,
-                    Medan, North Sumatra</p>
+                <p class="text-slate-100 mt-4">
+                    November 20<sup>th</sup> - 22<sup>nd</sup>, 2025 <br> Holiday Inn Bandung Pasteur, West
+                    Java, Indonesia</p>
                 <div class="mt-10">
                     <button
                         class=" text-white bg-gradient-to-br from-amber-300 to-[#f6921e] hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-amber-300 dark:focus:ring-amber-800 font-medium rounded-lg text-sm px-5 md:px-10 lg:py-3.5 py-2.5 text-center">Read
@@ -24,18 +30,15 @@
             </div>
         </div>
         <div
-            class="absolute wave block md:hidden lg:block overflow-hidden w-full z-0 left-0 leading-none bottom-[-1px]">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none"
-                class="block position-relative">
-                <path class="fill-[#fef7ff] translate-middle-y" d="M790.5,93.1c-59.3-5.3-116.8-18-192.6-50c-29.6-12.7-76.9-31-100.5-35.9c-23.6-4.9-52.6-7.8-75.5-5.3
-          c-10.2,1.1-22.6,1.4-50.1,7.4c-27.2,6.3-58.2,16.6-79.4,24.7c-41.3,15.9-94.9,21.9-134,22.6C72,58.2,0,25.8,0,25.8V100h1000V65.3
-          c0,0-51.5,19.4-106.2,25.7C839.5,97,814.1,95.2,790.5,93.1z"></path>
+            class="absolute block md:hidden lg:block overflow-hidden w-full z-0 left-0 leading-none bottom-[-1px]">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path class="fill-white" fill-opacity="1" d="M0,320L720,192L1440,288L1440,320L720,320L0,320Z"></path>
             </svg>
         </div>
     </section>
 
     <section
-        class="lg:pb-28 pb-20  pt-0 lg:-mt-14 grid grid-cols-1 lg:grid-cols-2 px-3 gap-3 border-b-2 border-dashed border-gray-400">
+        class="lg:pb-28 pb-20 pt-0 lg:mt-14 grid grid-cols-1 lg:grid-cols-2 px-3 gap-3 border-b-2 border-dashed border-gray-400">
         <div class="">
             <!-- Countdown -->
             <div
@@ -126,8 +129,8 @@
             </div>
             <div class="grid gap-4">
                 <div class="relative">
-                    <img class="h-full object-cover max-w-full rounded-2xl"
-                        src="assets/images/medan/landmark.webp" alt="">
+                    <img class="h-full object-cover max-w-full rounded-2xl" src="assets/images/medan/landmark.webp"
+                        alt="">
                     <div class="absolute inset-0 bg-slate-950/50"></div>
                 </div>
             </div>
@@ -228,7 +231,7 @@
                             </div>
                         </div>
                         @endforeach
-                        
+
                     </div>
                 </div>
             </div>
@@ -330,19 +333,18 @@
         setInterval(updateCountdown, 1000);
         let valueDisplays = document.querySelectorAll(".num");
         let interval = 4000;
-    
-      valueDisplays.forEach((valueDisplay) => {
-          let startValue = 0;
-          let endValue = parseInt(valueDisplay.getAttribute("data-val"));
-          let duration = Math.floor(interval / endValue);
-          let counter = setInterval(function() {
-              startValue += 1;
-              valueDisplay.textContent = startValue;
-              if (startValue == endValue) {
-                  clearInterval(counter);
-              }
-          }, duration);
-      });
-    });
 
+        valueDisplays.forEach((valueDisplay) => {
+            let startValue = 0;
+            let endValue = parseInt(valueDisplay.getAttribute("data-val"));
+            let duration = Math.floor(interval / endValue);
+            let counter = setInterval(function() {
+                startValue += 1;
+                valueDisplay.textContent = startValue;
+                if (startValue == endValue) {
+                    clearInterval(counter);
+                }
+            }, duration);
+        });
+    });
 </script>

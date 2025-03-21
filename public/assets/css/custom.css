@@ -5,19 +5,18 @@
 	Overwriting Default Theme Styles for Better Handling Updates
 -----------------------------------------------------------------*/
 body {
-    font-family: "Roboto", sans-serif;
+    font-family: "Poppins", sans-serif;
     /* background-color: #fef7ff; */
 }
 
 .header {
     padding: 15px;
-    position: absolute;
-    top: 0;
     /* text-align: center; */
 }
 
 #navbar {
-    position: fixed;
+    position: sticky;
+    top: 0;
     overflow: hidden;
     /* background-color: #0658c9; */
     /* color: white; */

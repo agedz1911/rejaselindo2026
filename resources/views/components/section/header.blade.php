@@ -1,81 +1,80 @@
 <!-- Header -->
-<div class="header">
-    <header class="bg-pink-500 z-50 text-white text-sm py-2">
-        <div class="container mx-auto flex justify-between items-center px-4">
-            <div>
-                <span>
-                    12893 Green Valley Street, USA 85882
-                </span>
-                <span class="ml-4">
-                    contactinfo@gmail.com
-                </span>
-            </div>
-            <div>
-                <span>
-                    Follow Us On:
-                </span>
-                <a class="ml-2" href="#">
-                    <i class="fab fa-facebook-f">
-                    </i>
-                </a>
-                <a class="ml-2" href="#">
-                    <i class="fab fa-twitter">
-                    </i>
-                </a>
-                <a class="ml-2" href="#">
-                    <i class="fab fa-linkedin-in">
-                    </i>
-                </a>
-                <a class="ml-2" href="#">
-                    <i class="fab fa-instagram">
-                    </i>
-                </a>
-            </div>
+<header class="bg-pink-500 header z-20 text-white text-sm py-2">
+    <div class="container mx-auto flex justify-between items-center px-4">
+        <div>
+            <span>
+                12893 Green Valley Street, USA 85882
+            </span>
+            <span class="ml-4">
+                contactinfo@gmail.com
+            </span>
         </div>
-    </header>
-    <!-- Navigation -->
-    <nav class="w-full z-10" >
-        <div class="container mx-auto flex justify-between items-center py-4 px-4">
-            <div class="text-2xl font-bold text-gray-800">
-                EduMim
-            </div>
-            <ul class="flex space-x-6">
-                <li>
-                    <a href="#">
-                        Home
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        Pages
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        Courses
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        Blog
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        Contacts
-                    </a>
-                </li>
-            </ul>
-            <div class="flex items-center space-x-4">
-                <i class="fas fa-search text-gray-600">
+        <div>
+            <span>
+                Follow Us On:
+            </span>
+            <a class="ml-2" href="#">
+                <i class="fab fa-facebook-f">
                 </i>
-                <button class="bg-blue-900 text-white px-4 py-2 rounded">
-                    Start Free Trial
-                </button>
-            </div>
+            </a>
+            <a class="ml-2" href="#">
+                <i class="fab fa-twitter">
+                </i>
+            </a>
+            <a class="ml-2" href="#">
+                <i class="fab fa-linkedin-in">
+                </i>
+            </a>
+            <a class="ml-2" href="#">
+                <i class="fab fa-instagram">
+                </i>
+            </a>
         </div>
-    </nav>
-</div>
+    </div>
+</header>
+<!-- Navigation -->
+<nav class="w-full z-10" id="navbar">
+    <div class="container mx-auto flex justify-between items-center py-4 px-4">
+        <div class="text-2xl font-bold text-gray-800">
+            EduMim
+        </div>
+        <ul class="flex space-x-6">
+            <li>
+                <a href="#">
+                    Home
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    Pages
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    Courses
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    Blog
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    Contacts
+                </a>
+            </li>
+        </ul>
+        <div class="flex items-center space-x-4">
+            <i class="fas fa-search text-gray-600">
+            </i>
+            <button class="bg-blue-900 text-white px-4 py-2 rounded">
+                Start Free Trial
+            </button>
+        </div>
+    </div>
+</nav>
+
 <script>
     window.addEventListener('scroll', function() {
              var navbar = document.getElementById('navbar');
