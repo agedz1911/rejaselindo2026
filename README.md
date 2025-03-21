@@ -1,4 +1,4 @@
-<p align="center">PERAPI 2025</p>
+<p align="center">BURN 2025</p>
 
 
 
