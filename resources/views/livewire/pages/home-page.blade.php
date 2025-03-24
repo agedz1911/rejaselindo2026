@@ -2,7 +2,7 @@
     <section class="lg:min-h-screen banner relative pb-16 lg:pb-28">
         <div class="absolute inset-0 bg-gradient-to-t from-[#0059A8]/60 from-10% to-[#0059A8]/70"></div>
         <div
-            class="flex z-10 flex-col lg:flex-row justify-center items-center lg:justify-evenly lg:items-start gap-8 relative pt-10 md:pt-14 lg:pt-32">
+            class="flex z-10 flex-col lg:flex-row justify-center items-center lg:justify-evenly gap-8 relative pt-10 md:pt-14 lg:pt-32">
             <div class="px-1 order-2 lg:order-1">
                 <img src="assets/images/banner.png" class="w-full max-w-md rounded-xl" alt="Banner">
             </div>
@@ -64,45 +64,26 @@
                 </div>
             </div>
         </div>
-        {{-- <div class="card bg-base-100 image-full w-96 shadow-sm">
-            <figure>
-                <img src="assets/images/splash.png" alt="Shoes" />
-            </figure>
-            <div class="card-body">
-                <h2 class="card-title">Card Title</h2>
-                <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
-                <div class="card-actions justify-end">
-                    <button class="btn btn-primary">Buy Now</button>
-                </div>
-            </div>
-        </div>
-        <div class="card bg-base-100 w-full max-w-xs shadow-sm">
-            <div class="card-body">
-                <h2 class="card-title">Card title!</h2>
-                <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
-                <div class="card-actions justify-end">
-                    <button class="btn btn-primary">Buy Now</button>
-                </div>
-            </div>
-        </div>
-        <div class="card bg-base-100 w-full max-w-xs shadow-sm">
-            <div class="card-body">
-                <h2 class="card-title">Card title!</h2>
-                <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
-                <div class="card-actions justify-end">
-                    <button class="btn btn-primary">Buy Now</button>
-                </div>
-            </div>
-        </div> --}}
     </section>
 
-    <section class="lg:py-16 py-20 grid grid-cols-1 lg:grid-cols-2 px-3 gap-3">
+    <section class="lg:py-16 py-20 lg:mt-10 grid grid-cols-1 lg:grid-cols-2 px-3 lg:px-8 gap-3 border-b border-dashed border-gray-300">
         <div class="">
-            <div class="flex flex-col md:flex-row lg:justify-start justify-center items-center gap-3 mt-5">
+            <div class="flex text-start w-fit relative">
+                <img src="assets/images/logo/icon.png" alt="Icon"
+                    class="absolute lg:right-10 lg:-top-22 right-0 -top-15 w-32 lg:w-36">
+                <h1 class="text-xl lg:text-2xl text-[#FFCD03] uppercase font-bold">Indonesian Burn & <br> wound
+                    care meeting
+                    <span class="badge bg-red-700 text-white border-none lowercase text-xs">in conjuntion
+                        with</span>
+                    <br>7<sup class="lowercase">th</sup> updates in plastic surgery
+                </h1>
+            </div>
+            <img src="assets/images/logo/logo.png" class="w-full max-w-xs rounded-lg hover:scale-105 transition-all duration-500" alt="">
+            <div class="flex flex-col md:flex-row lg:justify-start justify-center items-center gap-3 mt-8">
                 <div
-                    class="z-30 hover:cursor-pointer max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-md hover:bg-gray-100">
+                    class="z-10 hover:cursor-pointer max-w-sm p-6 bg-white border border-sky-50 rounded-lg shadow-md hover:bg-sky-100">
                     <div class="flex items-center">
-                        <div class="shrink-0 bg-amber-500 py-3 px-4 rounded-full">
+                        <div class="shrink-0 bg-sky-900 py-3 px-4 rounded-full">
                             <i class="fa fa-calendar-o text-4xl text-white"></i>
                         </div>
                         <div class="flex-1 min-w-0 ms-4">
@@ -110,23 +91,23 @@
                                 Thursday to Saturday
                             </p>
                             <p class="text-sm text-gray-500 truncate">
-                                July 31<sup>st</sup> - August 2<sup>nd</sup>, 2025
+                                November 20<sup>th</sup> - 22<sup>nd</sup>, 2025
                             </p>
                         </div>
                     </div>
                 </div>
                 <div
-                    class="z-30 hover:cursor-pointer max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-md hover:bg-gray-100">
+                    class="z-10 hover:cursor-pointer max-w-sm p-6 bg-white border border-sky-50 rounded-lg shadow-md hover:bg-sky-100">
                     <div class="flex items-center px-5">
-                        <div class="shrink-0 bg-amber-500 py-3 px-4 rounded-full">
+                        <div class="shrink-0 bg-sky-900 py-3 px-4 rounded-full">
                             <i class="fa fa-map-marker text-4xl text-white"></i>
                         </div>
                         <div class="flex-1 min-w-0 ms-4">
                             <p class="text-sm font-medium  truncate ">
-                                JW Marriot Hotel Medan
+                                Holiday Inn Bandung Pasteur
                             </p>
                             <p class="text-sm text-gray-500 truncate">
-                                Medan, North Sumatra
+                                Bandung, West java
                             </p>
                         </div>
                     </div>
@@ -134,10 +115,13 @@
             </div>
         </div>
 
+        <img src="assets/images/mockup.png" class="w-full rounded-lg" alt="">
+    </section>
+
+    <section class="lg:py-16 py-20">
         <div class="w-full pt-5">
             <div class="text-center pb-6 m-auto">
-                <p class="mb-1 font-semibold tracking-wide">28<sup>th</sup> InaPRAS</p>
-                <h2 class="mb-1 text-4xl font-semibold uppercase tracking-wide">important <span
+                <h2 class="mb-1 text-3xl font-bold uppercase">important <span
                         class="text-amber-500 ">Dates</span></h2>
             </div>
             <livewire:section.important-date />
@@ -145,7 +129,7 @@
     </section>
 
     <section class="text-white feature relative z-0 start-0 py-28">
-        <div class="absolute inset-0 bg-gradient-to-b from-[#9E1F63]/80 to-[#470858]"></div>
+        <div class="absolute inset-0 bg-gradient-to-b from-[#0059A8]/80 to-[#0059A8]"></div>
         <div class="relative">
             <div class="w-full max-w-6xl mx-auto border-b border-white border-opacity-35">
                 <div class="mb-16">

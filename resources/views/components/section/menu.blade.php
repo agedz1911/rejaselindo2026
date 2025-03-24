@@ -6,7 +6,7 @@
     </li>
     <div class="dropdown dropdown-hover">
         <div tabindex="0"
-            class="{{ request()->is('/organizing-committee') || request()->is('/faculties') ? 'text-amber-400' : 'text-white' }} hover:text-amber-500">
+            class="{{ request()->is('organizing-committee') || request()->is('faculties') ? 'text-amber-400' : 'text-white' }} hover:cursor-pointer hover:text-amber-500">
             Congress Information <i class="fa-solid fa-angle-down"></i></div>
         <ul tabindex="0" class="dropdown-content menu bg-base-100 rounded-box gap-2 w-60 p-2 shadow-sm">
             <li>
@@ -24,7 +24,7 @@
 
     <div class="dropdown dropdown-hover">
         <div tabindex="0"
-            class="{{ request()->is('/program-at-glance') || request()->is('/scientific-schedule') ? 'text-amber-400' : 'text-white' }} hover:text-amber-500">
+            class="{{ request()->is('program-at-glance') || request()->is('scientific-schedule') ? 'text-amber-400' : 'text-white' }} hover:cursor-pointer hover:text-amber-500">
             Scientific Program <i class="fa-solid fa-angle-down"></i></div>
         <ul tabindex="0" class="dropdown-content menu bg-base-100 rounded-box gap-2 w-60 p-2 shadow-sm">
             <li>

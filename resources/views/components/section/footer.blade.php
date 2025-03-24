@@ -1,8 +1,17 @@
 <footer class="pt-20 text-center text-white relative">
-    <div class="absolute inset-0 bg-gradient-to-b from-[#92278F] to-[#232323]"></div>
+    <div class="absolute inset-0 bg-gradient-to-b from-[#0059A8] to-[#242525]"></div>
     <div class="relative">
         <div class="flex flex-col items-center w-full max-w-4xl m-auto">
-            <a href="/"><img src="assets/images/logo/logo-event-light.png" class="w-72 lg:w-96" alt="footer-logo"></a>
+            <div class="flex text-start w-fit relative">
+                <img src="assets/images/logo/icon.png" alt="Icon"
+                    class="absolute lg:right-10 right-10 -top-14 w-26 lg:w-28">
+                <h1 class="text-xl lg:text-2xl text-[#FFCD03] uppercase font-bold">Indonesian Burn & <br> wound
+                    care meeting
+                    <span class="badge bg-red-700 text-white border-none lowercase text-xs">in conjuntion
+                        with</span>
+                    <br>7<sup class="lowercase">th</sup> updates in plastic surgery
+                </h1>
+            </div>
             <div class="border-b border-white m-auto mb-6 w-full max-w-2xl">
                 <!-- <p class=" mb-0">28<sup>th</sup> Annual Scientific Meeting of the Indonesian Association of Plastic Reconstructive and Aesthetic Surgeons</p>
                  <p class="text-white-50 mb-6">Organized by: <span> Indonesian Urological Association (InaUA)</span></p> -->
@@ -12,27 +21,27 @@
                     Jakarta 10130, Indonesia</p>
                 <div class="py-5 mt-3">
                     <ul class="m-0 p-0 flex flex-row gap-5 lg:gap-8 justify-center">
-                        <li class="bg-amber-600/30 rounded-md p-2 w-10 hover:bg-white/50">
-                            <a href="mailto:pit28perapi@pharma-pro.com" class="text-slate-200">
+                        <li class="bg-amber-400 rounded-md p-2 w-10 hover:bg-sky-800 tooltip-bottom tooltip" data-tip="burn2025@pharma-pro.com">
+                            <a href="mailto:burn2025@pharma-pro.com" class="text-white">
                                 <i class="fa-solid fa-envelope-open-text text-xl"></i>
                             </a>
                         </li>
-                        <li class="bg-amber-600/30 rounded-md p-2 w-10 hover:bg-white/50">
-                            <a href="tel:+622163869502" class="text-slate-200">
+                        <li class="bg-amber-400 rounded-md p-2 w-10 hover:bg-sky-800 tooltip-bottom tooltip" data-tip="+6221 6386 9502">
+                            <a href="tel:+622163869502" class="text-white">
                                 <i class="fa fa-phone text-xl"></i>
                             </a>
                         </li>
-                        <li class="bg-amber-600/30 rounded-md p-2 w-10 hover:bg-white/50">
-                            <a href="tel:+628111609822" class="text-slate-200">
+                        <li class="bg-amber-400 rounded-md p-2 w-10 hover:bg-sky-800 tooltip-bottom tooltip" data-tip="+62 811 1609 822">
+                            <a href="tel:+628111609822" class="text-white">
                                 <i class="fa fa-mobile-screen text-xl"></i>
                             </a>
                         </li>
-                        <li class="bg-amber-600/30 rounded-md p-2 w-10 hover:bg-white/50">
+                        <li class="bg-amber-400 rounded-md p-2 w-10 hover:bg-sky-800 tooltip-bottom tooltip" data-tip="+62 811 1609 822">
                             <a href="https://wa.me/+628111609822" class="text-green-500">
                                 <i class="fa fa-whatsapp text-xl"></i>
                             </a>
                         </li>
-                        <li class="bg-amber-600/30 rounded-md p-2 w-10 hover:bg-white/50">
+                        <li class="bg-amber-400 rounded-md p-2 w-10 hover:bg-sky-800 tooltip-bottom tooltip" data-tip="@ig">
                             <a href="javascript:void(0)" class="text-rose-500">
                                 <i class="fa fa-instagram text-xl"></i>
                             </a>
