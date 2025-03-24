@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+<html class="scroll-smooth" lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>{{ $title ?? 'PERAPI' }}</title>
+    <title>{{ $title ?? 'BURN 2025' }}</title>
     <meta name="description"
         content="Indonesian Burn & wound care meeting in conjuntion with 7th updates in plastic surgery " />
     <meta name="keywords" content="plastic surgery, burn, wound care, aesthetic, reconstructive, beauty, aesthetic education," />

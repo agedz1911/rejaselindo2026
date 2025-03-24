@@ -1,7 +1,8 @@
-<div class=" ">
+<div class="relative">
     <section class="lg:min-h-screen banner relative pb-16 lg:pb-28">
-        <div class="absolute inset-0 bg-gradient-to-t from-[#286786FF]/90 from-10% to-[#0059A8]/40"></div>
-        <div class="flex z-10 flex-col lg:flex-row justify-evenly items-start gap-8 relative pt-10 md:pt-14 lg:pt-32">
+        <div class="absolute inset-0 bg-gradient-to-t from-[#0059A8]/60 from-10% to-[#0059A8]/70"></div>
+        <div
+            class="flex z-10 flex-col lg:flex-row justify-center items-center lg:justify-evenly lg:items-start gap-8 relative pt-10 md:pt-14 lg:pt-32">
             <div class="px-1 order-2 lg:order-1">
                 <img src="assets/images/banner.png" class="w-full max-w-md rounded-xl" alt="Banner">
             </div>
@@ -29,8 +30,7 @@
                 </div>
             </div>
         </div>
-        <div
-            class="absolute block md:hidden lg:block overflow-hidden w-full z-0 left-0 leading-none bottom-[-1px]">
+        <div class="absolute block  overflow-hidden w-full z-0 left-0 leading-none bottom-[-1px]">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
                 <path class="fill-white" fill-opacity="1" d="M0,320L720,192L1440,288L1440,320L720,320L0,320Z"></path>
             </svg>
@@ -38,50 +38,66 @@
     </section>
 
     <section
-        class="lg:pb-28 pb-20 pt-0 lg:mt-14 grid grid-cols-1 lg:grid-cols-2 px-3 gap-3 border-b-2 border-dashed border-gray-400">
-        <div class="">
-            <!-- Countdown -->
-            <div
-                class="relative mx-auto border-gray-800 dark:border-gray-800 bg-gray-800 border-[8px] rounded-t-xl h-[172px] max-w-[301px] md:h-[294px] md:max-w-[512px]">
-                <div class="rounded-lg overflow-hidden h-[156px] md:h-[278px] bg-white dark:bg-gray-800">
-                    <img src="assets/images/mockup.png" class=" h-[156px] md:h-[278px] w-full rounded-lg relative"
-                        alt="">
-                    <div class="w-full absolute bottom-1 lg:bottom-4 text-center grid justify-items-center gap-0">
-                        <div id="countdown" class="flex gap-3 w-full lg:gap-8 rounded-lg bg-black/50 mt-1">
-                            <div class="m-auto py-2 lg:py-4 ">
-                                <span id="days" class="font-bold mb-0 text-2xl lg:text-4xl text-amber-500"></span><br>
-                                <small class="text-white text-xs">Days</small>
-                            </div>
+        class="pb-10 pt-0 md:-mt-20 w-full max-w-5xl mx-auto px-2">
+        <div class="card bg-gradient-to-br from-[#0059A8] to-[#6CB4E3] w-full">
+            <div class="card-body splash">
+                <div id="countdown" class="flex gap-3 w-full lg:gap-8 ">
+                    <div class="m-auto py-2 px-5 lg:py-4 text-center">
+                        <span id="days" class="font-bold text-amber-400 mb-0 text-2xl lg:text-4xl"></span><br>
+                        <small class=" text-xs">Days</small>
+                    </div>
 
-                            <div class=" m-auto py-2 lg:py-4">
-                                <span id="hours" class="font-bold mb-0 text-2xl lg:text-4xl text-amber-500"></span><br>
-                                <small class="text-white text-xs">Hours</small>
-                            </div>
+                    <div class=" m-auto py-2 px-7 lg:py-4">
+                        <span id="hours" class="font-bold text-amber-400 mb-0 text-2xl lg:text-4xl"></span><br>
+                        <small class=" text-xs">Hours</small>
+                    </div>
 
-                            <div class=" m-auto py-2 lg:py-4">
-                                <span id="minutes"
-                                    class="font-bold mb-0 text-2xl lg:text-4xl text-amber-500"></span><br>
-                                <small class="text-white text-xs">Minutes</small>
-                            </div>
+                    <div class=" m-auto py-2 px-5 lg:py-4">
+                        <span id="minutes" class="font-bold text-amber-400 mb-0 text-2xl lg:text-4xl"></span><br>
+                        <small class=" text-xs">Minutes</small>
+                    </div>
 
-                            <div class=" m-auto py-2 lg:py-4">
-                                <span id="seconds"
-                                    class="font-bold mb-0 text-2xl lg:text-4xl text-amber-500"></span><br>
-                                <small class="text-white text-xs">Seconds</small>
-                            </div>
-                        </div>
-                        <a href="/registration" wire:navigate
-                            class="hover:text-indigo-700 mt-2 text-white bg-gradient-to-br from-amber-300 to-[#f6921e] hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 font-medium rounded-lg text-sm px-5 md:px-10 lg:py-3.5 py-2.5 text-center uppercase">Join
-                            Now !</a>
+                    <div class=" m-auto py-2 px-5 lg:py-4">
+                        <span id="seconds" class="font-bold text-amber-400 mb-0 text-2xl lg:text-4xl"></span><br>
+                        <small class=" text-xs">Seconds</small>
                     </div>
                 </div>
             </div>
-            <div
-                class="relative mx-auto bg-gray-900 dark:bg-gray-700 rounded-b-xl rounded-t-sm h-[17px] max-w-[351px] md:h-[21px] md:max-w-[597px]">
-                <div
-                    class="absolute left-1/2 top-0 -translate-x-1/2 rounded-b-xl w-[56px] h-[5px] md:w-[96px] md:h-[8px] bg-gray-800">
+        </div>
+        {{-- <div class="card bg-base-100 image-full w-96 shadow-sm">
+            <figure>
+                <img src="assets/images/splash.png" alt="Shoes" />
+            </figure>
+            <div class="card-body">
+                <h2 class="card-title">Card Title</h2>
+                <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+                <div class="card-actions justify-end">
+                    <button class="btn btn-primary">Buy Now</button>
                 </div>
             </div>
+        </div>
+        <div class="card bg-base-100 w-full max-w-xs shadow-sm">
+            <div class="card-body">
+                <h2 class="card-title">Card title!</h2>
+                <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+                <div class="card-actions justify-end">
+                    <button class="btn btn-primary">Buy Now</button>
+                </div>
+            </div>
+        </div>
+        <div class="card bg-base-100 w-full max-w-xs shadow-sm">
+            <div class="card-body">
+                <h2 class="card-title">Card title!</h2>
+                <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+                <div class="card-actions justify-end">
+                    <button class="btn btn-primary">Buy Now</button>
+                </div>
+            </div>
+        </div> --}}
+    </section>
+
+    <section class="lg:py-16 py-20 grid grid-cols-1 lg:grid-cols-2 px-3 gap-3">
+        <div class="">
             <div class="flex flex-col md:flex-row lg:justify-start justify-center items-center gap-3 mt-5">
                 <div
                     class="z-30 hover:cursor-pointer max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-md hover:bg-gray-100">
@@ -118,35 +134,13 @@
             </div>
         </div>
 
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 relative">
-            <div class="grid gap-4">
-                <div class="bg-gray-200 rounded-lg place-items-center place-content-center">
-                    <img src="assets/images/logo/logo.png" class="max-w-full h-auto" alt="">
-                </div>
-                <div class="bg-gray-200 rounded-lg place-items-center place-content-start">
-                    <img src="assets/images/logo/logo-event.png" class="max-w-full h-auto" alt="">
-                </div>
-            </div>
-            <div class="grid gap-4">
-                <div class="relative">
-                    <img class="h-full object-cover max-w-full rounded-2xl" src="assets/images/medan/landmark.webp"
-                        alt="">
-                    <div class="absolute inset-0 bg-slate-950/50"></div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="py-28 px-2">
-        <div class="w-full max-w-3xl mx-auto">
+        <div class="w-full pt-5">
             <div class="text-center pb-6 m-auto">
                 <p class="mb-1 font-semibold tracking-wide">28<sup>th</sup> InaPRAS</p>
                 <h2 class="mb-1 text-4xl font-semibold uppercase tracking-wide">important <span
                         class="text-amber-500 ">Dates</span></h2>
             </div>
-            <div class="w-full pt-5">
-                <livewire:section.important-date />
-            </div>
+            <livewire:section.important-date />
         </div>
     </section>
 
@@ -309,7 +303,7 @@
         const currentTime = new Date();
 
         // Set new date 30 days from now
-        const targetTime = new Date(2025, 8, 25, 8, 0, 0);
+        const targetTime = new Date(2025, 11, 20, 8, 0, 0);
 
         // Update countdown time
         function updateCountdown() {
