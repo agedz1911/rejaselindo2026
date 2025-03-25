@@ -1,6 +1,6 @@
-<div class="w-full lg:w-11/12">
+<div class="w-full">
     <section class="breadcrumbs relative pb-0">
-        <div class="absolute inset-0 bg-gradient-to-b from-[#470858]/80 to-[#9E1F63]/30"></div>
+        <div class="absolute inset-0 bg-gradient-to-b from-[#0059A8]/10 to-[#0059A8]/80"></div>
         <div class="py-16 lg:py-28 text-center relative">
             <h2 class="text-white uppercase text-2xl font-semibold tracking-wide lg:text-4xl">Venue</h2>
         </div>
@@ -17,7 +17,7 @@
                         unforgettable memories in every traveler's heart.</p>
                 </div>
                 <div class="">
-                    <a class="text-sm underline hover:text-amber-500" href="javascript:void(0)">See more story of Medan <i class="fa-solid fa-angle-right"></i></a>
+                    <a class="text-sm underline hover:text-amber-400" href="javascript:void(0)">See more story of Medan <i class="fa-solid fa-angle-right"></i></a>
                 </div>
             </div>
             <div class="grid grid-cols-1 md:grid-cols-2 mt-5">
@@ -47,12 +47,12 @@
                                     <h4 class="uppercase text-xl mb-2 font-semibold text-gray-700">Rumah Makan Tabona</h4>
                                     <p class="text-gray-500">Enjoy the rich and flavorful chicken and beef curry of Medan, made with a blend of traditional spices and a savory broth that creates an unforgettable culinary experience</p>
                                     <div class="flex justify-evenly mt-4">
-                                        <a href="https://g.co/kgs/hiWBLYf" target="_blank" class="text-amber-500 hover:underline hover:text-indigo-600">
+                                        <a href="https://g.co/kgs/hiWBLYf" target="_blank" class="text-amber-400 hover:underline hover:text-indigo-600">
                                             <i class="fa-solid fa-location-dot"></i>
                                             <small class="text-muted">Address</small>
                                         </a>
 
-                                        <a href="https://vt.tiktok.com/ZS6c3AsxF/" target="_blank" class="text-amber-500 hover:underline hover:text-indigo-600">
+                                        <a href="https://vt.tiktok.com/ZS6c3AsxF/" target="_blank" class="text-amber-400 hover:underline hover:text-indigo-600">
                                             <i class="fa-solid fa-star"></i>
                                             <small class="text-muted">Review</small>
                                         </a>
@@ -67,12 +67,12 @@
                                     <h4 class="uppercase text-xl mb-2 font-semibold text-gray-700">Bihun Bebek Asie</h4>
                                     <p class="text-gray-500">A bowl of thin vermicelli noodles served with a rich and aromatic duck broth, topped with tender slices of duck and a unique herbal spice blend</p>
                                     <div class="flex justify-evenly mt-4">
-                                        <a href="https://maps.app.goo.gl/2Y8oYTgeohNW7rhS7" target="_blank" class="text-amber-500 hover:underline hover:text-indigo-600">
+                                        <a href="https://maps.app.goo.gl/2Y8oYTgeohNW7rhS7" target="_blank" class="text-amber-400 hover:underline hover:text-indigo-600">
                                             <i class="fa-solid fa-location-dot"></i>
                                             <small class="text-muted">Address</small>
                                         </a>
 
-                                        <a href="https://vt.tiktok.com/ZS6cxeKV3/" target="_blank" class="text-amber-500 hover:underline hover:text-indigo-600">
+                                        <a href="https://vt.tiktok.com/ZS6cxeKV3/" target="_blank" class="text-amber-400 hover:underline hover:text-indigo-600">
                                             <i class="fa-solid fa-star"></i>
                                             <small class="text-muted">Review</small>
                                         </a>
@@ -87,12 +87,12 @@
                                     <h4 class="uppercase text-xl mb-2 font-semibold text-gray-700">SOTO SINAR PAGI</h4>
                                     <p class="text-gray-500">A famous beef soup with a thick, flavorful broth, packed with spices and served with tender beef slices</p>
                                     <div class="flex justify-evenly mt-4">
-                                        <a href="https://maps.app.goo.gl/syrkvF3D1TjoUvgu8" target="_blank" class="text-amber-500 hover:underline hover:text-indigo-600">
+                                        <a href="https://maps.app.goo.gl/syrkvF3D1TjoUvgu8" target="_blank" class="text-amber-400 hover:underline hover:text-indigo-600">
                                             <i class="fa-solid fa-location-dot"></i>
                                             <small class="text-muted">Address</small>
                                         </a>
 
-                                        <a href="https://vt.tiktok.com/ZS6c9CbCb/" target="_blank" class="text-amber-500 hover:underline hover:text-indigo-600">
+                                        <a href="https://vt.tiktok.com/ZS6c9CbCb/" target="_blank" class="text-amber-400 hover:underline hover:text-indigo-600">
                                             <i class="fa-solid fa-star"></i>
                                             <small class="text-muted">Review</small>
                                         </a>
@@ -109,12 +109,12 @@
                                         Durian, the best place in Medan to enjoy durian with
                                         distinctive sweet taste and soft texture</p>
                                     <div class="flex justify-evenly mt-4">
-                                        <a href="https://maps.app.goo.gl/QtJY7ErtmFteNJLB7" target="_blank" class="text-amber-500 hover:underline hover:text-indigo-600">
+                                        <a href="https://maps.app.goo.gl/QtJY7ErtmFteNJLB7" target="_blank" class="text-amber-400 hover:underline hover:text-indigo-600">
                                             <i class="fa-solid fa-location-dot"></i>
                                             <small class="text-muted">Address</small>
                                         </a>
 
-                                        <a href="https://vt.tiktok.com/ZS6c9paBX/" target="_blank" class="text-amber-500 hover:underline hover:text-indigo-600">
+                                        <a href="https://vt.tiktok.com/ZS6c9paBX/" target="_blank" class="text-amber-400 hover:underline hover:text-indigo-600">
                                             <i class="fa-solid fa-star"></i>
                                             <small class="text-muted">Review</small>
                                         </a>
@@ -131,12 +131,12 @@
                                         which serves selected durian with rich taste and texture
                                         soft, suitable for true durian lovers.</p>
                                     <div class="flex justify-evenly mt-4">
-                                        <a href="https://maps.app.goo.gl/nGxT6Di8vAP9nuWS6" target="_blank" class="text-amber-500 hover:underline hover:text-indigo-600">
+                                        <a href="https://maps.app.goo.gl/nGxT6Di8vAP9nuWS6" target="_blank" class="text-amber-400 hover:underline hover:text-indigo-600">
                                             <i class="fa-solid fa-location-dot"></i>
                                             <small class="text-muted">Address</small>
                                         </a>
 
-                                        <a href="https://vt.tiktok.com/ZS6c3bTBc/" target="_blank" class="text-amber-500 hover:underline hover:text-indigo-600">
+                                        <a href="https://vt.tiktok.com/ZS6c3bTBc/" target="_blank" class="text-amber-400 hover:underline hover:text-indigo-600">
                                             <i class="fa-solid fa-star"></i>
                                             <small class="text-muted">Review</small>
                                         </a>
@@ -153,12 +153,12 @@
                                         cold milk, and rich jam toast in a pleasant atmosphere
                                         warm and full of memories.</p>
                                     <div class="flex justify-evenly mt-4">
-                                        <a href="https://maps.app.goo.gl/DaM24aXGnAx1r6uP6" target="_blank" class="text-amber-500 hover:underline hover:text-indigo-600">
+                                        <a href="https://maps.app.goo.gl/DaM24aXGnAx1r6uP6" target="_blank" class="text-amber-400 hover:underline hover:text-indigo-600">
                                             <i class="fa-solid fa-location-dot"></i>
                                             <small class="text-muted">Address</small>
                                         </a>
 
-                                        <a href="https://vt.tiktok.com/ZS63RDfhW/" target="_blank" class="text-amber-500 hover:underline hover:text-indigo-600">
+                                        <a href="https://vt.tiktok.com/ZS63RDfhW/" target="_blank" class="text-amber-400 hover:underline hover:text-indigo-600">
                                             <i class="fa-solid fa-star"></i>
                                             <small class="text-muted">Review</small>
                                         </a>
@@ -175,12 +175,12 @@
                                         tempting specialties and attractive flavors in each
                                         bite!</p>
                                     <div class="flex justify-evenly mt-4">
-                                        <a href="https://maps.app.goo.gl/HhVmGt6dB7v1gza16" target="_blank" class="text-amber-500 hover:underline hover:text-indigo-600">
+                                        <a href="https://maps.app.goo.gl/HhVmGt6dB7v1gza16" target="_blank" class="text-amber-400 hover:underline hover:text-indigo-600">
                                             <i class="fa-solid fa-location-dot"></i>
                                             <small class="text-muted">Address</small>
                                         </a>
 
-                                        <a href="https://vt.tiktok.com/ZS6c3KNfq/" target="_blank" class="text-amber-500 hover:underline hover:text-indigo-600">
+                                        <a href="https://vt.tiktok.com/ZS6c3KNfq/" target="_blank" class="text-amber-400 hover:underline hover:text-indigo-600">
                                             <i class="fa-solid fa-star"></i>
                                             <small class="text-muted">Review</small>
                                         </a>
@@ -197,12 +197,12 @@
                                         Gumarang offers a variety of delicious menus with spices
                                         which is appetizing</p>
                                     <div class="flex justify-evenly mt-4">
-                                        <a href="https://maps.app.goo.gl/ChSs3RzSaFoWE83MA" target="_blank" class="text-amber-500 hover:underline hover:text-indigo-600">
+                                        <a href="https://maps.app.goo.gl/ChSs3RzSaFoWE83MA" target="_blank" class="text-amber-400 hover:underline hover:text-indigo-600">
                                             <i class="fa-solid fa-location-dot"></i>
                                             <small class="text-muted">Address</small>
                                         </a>
 
-                                        <a href="https://vt.tiktok.com/ZS6cxXQxL/" target="_blank" class="text-amber-500 hover:underline hover:text-indigo-600">
+                                        <a href="https://vt.tiktok.com/ZS6cxXQxL/" target="_blank" class="text-amber-400 hover:underline hover:text-indigo-600">
                                             <i class="fa-solid fa-star"></i>
                                             <small class="text-muted">Review</small>
                                         </a>
@@ -218,12 +218,12 @@
                                     <p class="text-gray-500">Enjoy premium dim sum at Nelayan Sun Plaza Medan, which
                                         a must try when visiting Medan</p>
                                     <div class="flex justify-evenly mt-4">
-                                        <a href="https://maps.app.goo.gl/nX48otR4sb2GEBL57" target="_blank" class="text-amber-500 hover:underline hover:text-indigo-600">
+                                        <a href="https://maps.app.goo.gl/nX48otR4sb2GEBL57" target="_blank" class="text-amber-400 hover:underline hover:text-indigo-600">
                                             <i class="fa-solid fa-location-dot"></i>
                                             <small class="text-muted">Address</small>
                                         </a>
 
-                                        <a href="https://vt.tiktok.com/ZS6wp56oX/" target="_blank" class="text-amber-500 hover:underline hover:text-indigo-600">
+                                        <a href="https://vt.tiktok.com/ZS6wp56oX/" target="_blank" class="text-amber-400 hover:underline hover:text-indigo-600">
                                             <i class="fa-solid fa-star"></i>
                                             <small class="text-muted">Review</small>
                                         </a>
@@ -240,12 +240,12 @@
                                         iconic Medan which serves a variety of delicious menus, from steak
                                         to Indonesian culinary delights, all with the best quality</p>
                                     <div class="flex justify-evenly mt-4">
-                                        <a href="https://maps.app.goo.gl/cSqSH32MicnagS3s9" target="_blank" class="text-amber-500 hover:underline hover:text-indigo-600">
+                                        <a href="https://maps.app.goo.gl/cSqSH32MicnagS3s9" target="_blank" class="text-amber-400 hover:underline hover:text-indigo-600">
                                             <i class="fa-solid fa-location-dot"></i>
                                             <small class="text-muted">Address</small>
                                         </a>
 
-                                        <a href=" https://vt.tiktok.com/ZS6c9yDjr/" target="_blank" class="text-amber-500 hover:underline hover:text-indigo-600">
+                                        <a href=" https://vt.tiktok.com/ZS6c9yDjr/" target="_blank" class="text-amber-400 hover:underline hover:text-indigo-600">
                                             <i class="fa-solid fa-star"></i>
                                             <small class="text-muted">Review</small>
                                         </a>
@@ -268,12 +268,12 @@
                                         which is delicious with a sweet and chewy taste, is the right choice
                                         to taste typical Medan snacks</p>
                                     <div class="flex justify-evenly mt-4">
-                                        <a href="https://maps.app.goo.gl/AJjMHQLfwjqskaSYA" target="_blank" class="text-amber-500 hover:underline hover:text-indigo-600">
+                                        <a href="https://maps.app.goo.gl/AJjMHQLfwjqskaSYA" target="_blank" class="text-amber-400 hover:underline hover:text-indigo-600">
                                             <i class="fa-solid fa-location-dot"></i>
                                             <small class="text-muted">Address</small>
                                         </a>
 
-                                        <a href="https://vt.tiktok.com/ZS63af1HA/" target="_blank" class="text-amber-500 hover:underline hover:text-indigo-600">
+                                        <a href="https://vt.tiktok.com/ZS63af1HA/" target="_blank" class="text-amber-400 hover:underline hover:text-indigo-600">
                                             <i class="fa-solid fa-star"></i>
                                             <small class="text-muted">Review</small>
                                         </a>
@@ -290,12 +290,12 @@
                                         just right. Each layer is full of deliciousness, making it a snack
                                         perfect that should not be missed</p>
                                     <div class="flex justify-evenly mt-4">
-                                        <a href="https://maps.app.goo.gl/W2jAPmmZ2VaG7Fyp8" target="_blank" class="text-amber-500 hover:underline hover:text-indigo-600">
+                                        <a href="https://maps.app.goo.gl/W2jAPmmZ2VaG7Fyp8" target="_blank" class="text-amber-400 hover:underline hover:text-indigo-600">
                                             <i class="fa-solid fa-location-dot"></i>
                                             <small class="text-muted">Address</small>
                                         </a>
 
-                                        <a href="https://vt.tiktok.com/ZS63a3oR7/" target="_blank" class="text-amber-500 hover:underline hover:text-indigo-600">
+                                        <a href="https://vt.tiktok.com/ZS63a3oR7/" target="_blank" class="text-amber-400 hover:underline hover:text-indigo-600">
                                             <i class="fa-solid fa-star"></i>
                                             <small class="text-muted">Review</small>
                                         </a>
@@ -312,12 +312,12 @@
                                         a mouth-watering tantalizer full of flavour, perfect to accompany
                                         your relaxing time</p>
                                     <div class="flex justify-evenly mt-4">
-                                        <a href="https://maps.app.goo.gl/9MjXk436krXMC8UM6" target="_blank" class="text-amber-500 hover:underline hover:text-indigo-600">
+                                        <a href="https://maps.app.goo.gl/9MjXk436krXMC8UM6" target="_blank" class="text-amber-400 hover:underline hover:text-indigo-600">
                                             <i class="fa-solid fa-location-dot"></i>
                                             <small class="text-muted">Address</small>
                                         </a>
 
-                                        <a href="https://vt.tiktok.com/ZS63aTJ25/" target="_blank" class="text-amber-500 hover:underline hover:text-indigo-600">
+                                        <a href="https://vt.tiktok.com/ZS63aTJ25/" target="_blank" class="text-amber-400 hover:underline hover:text-indigo-600">
                                             <i class="fa-solid fa-star"></i>
                                             <small class="text-muted">Review</small>
                                         </a>
@@ -334,12 +334,12 @@
                                         Each option is made with quality materials, perfect for
                                         satisfy your sweet snack craving</p>
                                     <div class="flex justify-evenly mt-4">
-                                        <a href="https://maps.app.goo.gl/jNUysHTAKUYuzFWt6" target="_blank" class="text-amber-500 hover:underline hover:text-indigo-600">
+                                        <a href="https://maps.app.goo.gl/jNUysHTAKUYuzFWt6" target="_blank" class="text-amber-400 hover:underline hover:text-indigo-600">
                                             <i class="fa-solid fa-location-dot"></i>
                                             <small class="text-muted">Address</small>
                                         </a>
 
-                                        <a href="https://vt.tiktok.com/ZS63mA1em/" target="_blank" class="text-amber-500 hover:underline hover:text-indigo-600">
+                                        <a href="https://vt.tiktok.com/ZS63mA1em/" target="_blank" class="text-amber-400 hover:underline hover:text-indigo-600">
                                             <i class="fa-solid fa-star"></i>
                                             <small class="text-muted">Review</small>
                                         </a>
@@ -356,12 +356,12 @@
                                         a favorite that tourists are always looking for. With a sweet taste
                                         just right, this sponge cake is suitable to accompany various special moments!</p>
                                     <div class="flex justify-evenly mt-4">
-                                        <a href="https://maps.app.goo.gl/RQBFNr7diA1JJgYT7" target="_blank" class="text-amber-500 hover:underline hover:text-indigo-600">
+                                        <a href="https://maps.app.goo.gl/RQBFNr7diA1JJgYT7" target="_blank" class="text-amber-400 hover:underline hover:text-indigo-600">
                                             <i class="fa-solid fa-location-dot"></i>
                                             <small class="text-muted">Address</small>
                                         </a>
 
-                                        <a href="https://vt.tiktok.com/ZS63m5fLt/" target="_blank" class="text-amber-500 hover:underline hover:text-indigo-600">
+                                        <a href="https://vt.tiktok.com/ZS63m5fLt/" target="_blank" class="text-amber-400 hover:underline hover:text-indigo-600">
                                             <i class="fa-solid fa-star"></i>
                                             <small class="text-muted">Review</small>
                                         </a>
@@ -378,12 +378,12 @@
                                         with special spices that are rich in taste, every bite
                                         provides an appetizing sensation.</p>
                                     <div class="flex justify-evenly mt-4">
-                                        <a href="https://maps.app.goo.gl/E71jU8iDLdFn1zcq5" target="_blank" class="text-amber-500 hover:underline hover:text-indigo-600">
+                                        <a href="https://maps.app.goo.gl/E71jU8iDLdFn1zcq5" target="_blank" class="text-amber-400 hover:underline hover:text-indigo-600">
                                             <i class="fa-solid fa-location-dot"></i>
                                             <small class="text-muted">Address</small>
                                         </a>
 
-                                        <a href="https://vt.tiktok.com/ZS63ma9C7/" target="_blank" class="text-amber-500 hover:underline hover:text-indigo-600">
+                                        <a href="https://vt.tiktok.com/ZS63ma9C7/" target="_blank" class="text-amber-400 hover:underline hover:text-indigo-600">
                                             <i class="fa-solid fa-star"></i>
                                             <small class="text-muted">Review</small>
                                         </a>
@@ -406,12 +406,12 @@
                                         Chinese with magnificent architecture and a rich art collection
                                         stunning</p>
                                     <div class="flex justify-evenly mt-4">
-                                        <a href="https://maps.app.goo.gl/PRXSUFLnrqqw3k8e6" target="_blank" class="text-amber-500 hover:underline hover:text-indigo-600">
+                                        <a href="https://maps.app.goo.gl/PRXSUFLnrqqw3k8e6" target="_blank" class="text-amber-400 hover:underline hover:text-indigo-600">
                                             <i class="fa-solid fa-location-dot"></i>
                                             <small class="text-muted">Address</small>
                                         </a>
 
-                                        <a href="https://vt.tiktok.com/ZS63RP89J/" target="_blank" class="text-amber-500 hover:underline hover:text-indigo-600">
+                                        <a href="https://vt.tiktok.com/ZS63RP89J/" target="_blank" class="text-amber-400 hover:underline hover:text-indigo-600">
                                             <i class="fa-solid fa-star"></i>
                                             <small class="text-muted">Review</small>
                                         </a>
@@ -428,12 +428,12 @@
                                         stunning design, offering a spiritual experience and
                                         deep history</p>
                                     <div class="flex justify-evenly mt-4">
-                                        <a href="https://maps.app.goo.gl/2So4hXxox9yMELpF7" target="_blank" class="text-amber-500 hover:underline hover:text-indigo-600">
+                                        <a href="https://maps.app.goo.gl/2So4hXxox9yMELpF7" target="_blank" class="text-amber-400 hover:underline hover:text-indigo-600">
                                             <i class="fa-solid fa-location-dot"></i>
                                             <small class="text-muted">Address</small>
                                         </a>
 
-                                        <a href=" https://vt.tiktok.com/ZS638JsrV/" target="_blank" class="text-amber-500 hover:underline hover:text-indigo-600">
+                                        <a href=" https://vt.tiktok.com/ZS638JsrV/" target="_blank" class="text-amber-400 hover:underline hover:text-indigo-600">
                                             <i class="fa-solid fa-star"></i>
                                             <small class="text-muted">Review</small>
                                         </a>
@@ -449,12 +449,12 @@
                                     <p class="text-gray-500">Maimun Palace, a symbol of the glory of the Deli Sultanate, is enchanting
                                         with magnificent architecture and preserved historical charm.</p>
                                     <div class="flex justify-evenly mt-4">
-                                        <a href="https://maps.app.goo.gl/YKYNa3pT6zZsa1ay5" target="_blank" class="text-amber-500 hover:underline hover:text-indigo-600">
+                                        <a href="https://maps.app.goo.gl/YKYNa3pT6zZsa1ay5" target="_blank" class="text-amber-400 hover:underline hover:text-indigo-600">
                                             <i class="fa-solid fa-location-dot"></i>
                                             <small class="text-muted">Address</small>
                                         </a>
 
-                                        <a href="https://vt.tiktok.com/ZS638CMvK" target="_blank" class="text-amber-500 hover:underline hover:text-indigo-600">
+                                        <a href="https://vt.tiktok.com/ZS638CMvK" target="_blank" class="text-amber-400 hover:underline hover:text-indigo-600">
                                             <i class="fa-solid fa-star"></i>
                                             <small class="text-muted">Review</small>
                                         </a>
@@ -471,12 +471,12 @@
                                         from a supervolcano eruption, with Samosir Island in the middle
                                         as a tourist and cultural destination.</p>
                                     <div class="flex justify-evenly mt-4">
-                                        <a href="https://maps.app.goo.gl/cTBe8D3CiEJnwmam7" target="_blank" class="text-amber-500 hover:underline hover:text-indigo-600">
+                                        <a href="https://maps.app.goo.gl/cTBe8D3CiEJnwmam7" target="_blank" class="text-amber-400 hover:underline hover:text-indigo-600">
                                             <i class="fa-solid fa-location-dot"></i>
                                             <small class="text-muted">Address</small>
                                         </a>
 
-                                        <a href="https://vt.tiktok.com/ZS6wsJPF8/" target="_blank" class="text-amber-500 hover:underline hover:text-indigo-600">
+                                        <a href="https://vt.tiktok.com/ZS6wsJPF8/" target="_blank" class="text-amber-400 hover:underline hover:text-indigo-600">
                                             <i class="fa-solid fa-star"></i>
                                             <small class="text-muted">Review</small>
                                         </a>
@@ -493,12 +493,12 @@
                                         located in Berastagi, with more than 35 exciting rides for
                                         all ages</p>
                                     <div class="flex justify-evenly mt-4">
-                                        <a href="https://maps.app.goo.gl/o2PkJMRBMa2ELyH16" target="_blank" class="text-amber-500 hover:underline hover:text-indigo-600">
+                                        <a href="https://maps.app.goo.gl/o2PkJMRBMa2ELyH16" target="_blank" class="text-amber-400 hover:underline hover:text-indigo-600">
                                             <i class="fa-solid fa-location-dot"></i>
                                             <small class="text-muted">Address</small>
                                         </a>
 
-                                        <a href=" https://vt.tiktok.com/ZS6Kefa2U/" target="_blank" class="text-amber-500 hover:underline hover:text-indigo-600">
+                                        <a href=" https://vt.tiktok.com/ZS6Kefa2U/" target="_blank" class="text-amber-400 hover:underline hover:text-indigo-600">
                                             <i class="fa-solid fa-star"></i>
                                             <small class="text-muted">Review</small>
                                         </a>
@@ -515,12 +515,12 @@
                                         which presents the beauty of thousands of colorful flowers, replicas
                                         the Eiffel Tower, and local culinary delights in a cool mountain atmosphere</p>
                                     <div class="flex justify-evenly mt-4">
-                                        <a href="https://maps.app.goo.gl/mUSkvcpcLvMp9dkx9" target="_blank" class="text-amber-500 hover:underline hover:text-indigo-600">
+                                        <a href="https://maps.app.goo.gl/mUSkvcpcLvMp9dkx9" target="_blank" class="text-amber-400 hover:underline hover:text-indigo-600">
                                             <i class="fa-solid fa-location-dot"></i>
                                             <small class="text-muted">Address</small>
                                         </a>
 
-                                        <a href="https://vt.tiktok.com/ZS6KeDjVU" target="_blank" class="text-amber-500 hover:underline hover:text-indigo-600">
+                                        <a href="https://vt.tiktok.com/ZS6KeDjVU" target="_blank" class="text-amber-400 hover:underline hover:text-indigo-600">
                                             <i class="fa-solid fa-star"></i>
                                             <small class="text-muted">Review</small>
                                         </a>
@@ -537,12 +537,12 @@
                                         Interesting for all ages, perfect for quality time
                                         with family and friends.</p>
                                     <div class="flex justify-evenly mt-4">
-                                        <a href="https://maps.app.goo.gl/MhEyRSY8dEc8Z6jB9" target="_blank" class="text-amber-500 hover:underline hover:text-indigo-600">
+                                        <a href="https://maps.app.goo.gl/MhEyRSY8dEc8Z6jB9" target="_blank" class="text-amber-400 hover:underline hover:text-indigo-600">
                                             <i class="fa-solid fa-location-dot"></i>
                                             <small class="text-muted">Address</small>
                                         </a>
 
-                                        <a href="https://vt.tiktok.com/ZS63UcPML/" target="_blank" class="text-amber-500 hover:underline hover:text-indigo-600">
+                                        <a href="https://vt.tiktok.com/ZS63UcPML/" target="_blank" class="text-amber-400 hover:underline hover:text-indigo-600">
                                             <i class="fa-solid fa-star"></i>
                                             <small class="text-muted">Review</small>
                                         </a>
@@ -558,12 +558,12 @@
                                     <p class="text-gray-500">A tourist destination with a calm natural feel, beautiful views, and
                                         calming spiritual atmosphere.</p>
                                     <div class="flex justify-evenly mt-4">
-                                        <a href="https://maps.app.goo.gl/a1rhPK18DZa5Pf9V7" target="_blank" class="text-amber-500 hover:underline hover:text-indigo-600">
+                                        <a href="https://maps.app.goo.gl/a1rhPK18DZa5Pf9V7" target="_blank" class="text-amber-400 hover:underline hover:text-indigo-600">
                                             <i class="fa-solid fa-location-dot"></i>
                                             <small class="text-muted">Address</small>
                                         </a>
 
-                                        <a href="https://vt.tiktok.com/ZS63yCFH5" target="_blank" class="text-amber-500 hover:underline hover:text-indigo-600">
+                                        <a href="https://vt.tiktok.com/ZS63yCFH5" target="_blank" class="text-amber-400 hover:underline hover:text-indigo-600">
                                             <i class="fa-solid fa-star"></i>
                                             <small class="text-muted">Review</small>
                                         </a>
@@ -580,12 +580,12 @@
                                         view of Mount Sinabung, feeding animals,
                                         horse riding, and fresh mountain air</p>
                                     <div class="flex justify-evenly mt-4">
-                                        <a href="https://maps.app.goo.gl/je71hnJCcahYSobT7" target="_blank" class="text-amber-500 hover:underline hover:text-indigo-600">
+                                        <a href="https://maps.app.goo.gl/je71hnJCcahYSobT7" target="_blank" class="text-amber-400 hover:underline hover:text-indigo-600">
                                             <i class="fa-solid fa-location-dot"></i>
                                             <small class="text-muted">Address</small>
                                         </a>
 
-                                        <a href="https://vt.tiktok.com/ZS63yyQXH/" target="_blank" class="text-amber-500 hover:underline hover:text-indigo-600">
+                                        <a href="https://vt.tiktok.com/ZS63yyQXH/" target="_blank" class="text-amber-400 hover:underline hover:text-indigo-600">
                                             <i class="fa-solid fa-star"></i>
                                             <small class="text-muted">Review</small>
                                         </a>
@@ -602,12 +602,12 @@
                                         Toba, Sipiso-piso Waterfall is the perfect place for
                                         enjoy the beauty of nature and fresh air.</p>
                                     <div class="flex justify-evenly mt-4">
-                                        <a href="https://maps.app.goo.gl/XX8KBZpiUvePXJ1e8" target="_blank" class="text-amber-500 hover:underline hover:text-indigo-600">
+                                        <a href="https://maps.app.goo.gl/XX8KBZpiUvePXJ1e8" target="_blank" class="text-amber-400 hover:underline hover:text-indigo-600">
                                             <i class="fa-solid fa-location-dot"></i>
                                             <small class="text-muted">Address</small>
                                         </a>
 
-                                        <a href="https://vt.tiktok.com/ZS63f1f8P/" target="_blank" class="text-amber-500 hover:underline hover:text-indigo-600">
+                                        <a href="https://vt.tiktok.com/ZS63f1f8P/" target="_blank" class="text-amber-400 hover:underline hover:text-indigo-600">
                                             <i class="fa-solid fa-star"></i>
                                             <small class="text-muted">Review</small>
                                         </a>
@@ -624,12 +624,12 @@
                                         Stunning natural beauty with a calm atmosphere
                                         and fresh, suitable for adventure and relaxation</p>
                                     <div class="flex justify-evenly mt-4">
-                                        <a href="https://maps.app.goo.gl/wSM8zuhrgJeEzAbc7" target="_blank" class="text-amber-500 hover:underline hover:text-indigo-600">
+                                        <a href="https://maps.app.goo.gl/wSM8zuhrgJeEzAbc7" target="_blank" class="text-amber-400 hover:underline hover:text-indigo-600">
                                             <i class="fa-solid fa-location-dot"></i>
                                             <small class="text-muted">Address</small>
                                         </a>
 
-                                        <a href="https://vt.tiktok.com/ZS63yE1ad/" target="_blank" class="text-amber-500 hover:underline hover:text-indigo-600">
+                                        <a href="https://vt.tiktok.com/ZS63yE1ad/" target="_blank" class="text-amber-400 hover:underline hover:text-indigo-600">
                                             <i class="fa-solid fa-star"></i>
                                             <small class="text-muted">Review</small>
                                         </a>
@@ -646,12 +646,12 @@
                                         offers a cool and calming natural atmosphere,
                                         perfect for outdoor adventures</p>
                                     <div class="flex justify-evenly mt-4">
-                                        <a href="https://maps.app.goo.gl/aH5cWH681PVsi4dE9" target="_blank" class="text-amber-500 hover:underline hover:text-indigo-600">
+                                        <a href="https://maps.app.goo.gl/aH5cWH681PVsi4dE9" target="_blank" class="text-amber-400 hover:underline hover:text-indigo-600">
                                             <i class="fa-solid fa-location-dot"></i>
                                             <small class="text-muted">Address</small>
                                         </a>
 
-                                        <a href="https://vt.tiktok.com/ZS635hDgp/" target="_blank" class="text-amber-500 hover:underline hover:text-indigo-600">
+                                        <a href="https://vt.tiktok.com/ZS635hDgp/" target="_blank" class="text-amber-400 hover:underline hover:text-indigo-600">
                                             <i class="fa-solid fa-star"></i>
                                             <small class="text-muted">Review</small>
                                         </a>
@@ -673,12 +673,12 @@
                                     <p class="text-gray-500">The perfect place to enjoy a delicious meal while
                                         Enjoy a relaxed atmosphere with entertaining live music</p>
                                     <div class="flex justify-evenly mt-4">
-                                        <a href="https://maps.app.goo.gl/AVmccdMLekqhtTVp8" target="_blank" class="text-amber-500 hover:underline hover:text-indigo-600">
+                                        <a href="https://maps.app.goo.gl/AVmccdMLekqhtTVp8" target="_blank" class="text-amber-400 hover:underline hover:text-indigo-600">
                                             <i class="fa-solid fa-location-dot"></i>
                                             <small class="text-muted">Address</small>
                                         </a>
 
-                                        <a href="https://vt.tiktok.com/ZS638GcjY/" target="_blank" class="text-amber-500 hover:underline hover:text-indigo-600">
+                                        <a href="https://vt.tiktok.com/ZS638GcjY/" target="_blank" class="text-amber-400 hover:underline hover:text-indigo-600">
                                             <i class="fa-solid fa-star"></i>
                                             <small class="text-muted">Review</small>
                                         </a>
@@ -695,12 +695,12 @@
                                         Cozy and comfortable atmosphere, suitable for gathering with friends
                                         friends or just relax.</p>
                                     <div class="flex justify-evenly mt-4">
-                                        <a href="https://maps.app.goo.gl/5kpEMfVgwrxmDsjj8" target="_blank" class="text-amber-500 hover:underline hover:text-indigo-600">
+                                        <a href="https://maps.app.goo.gl/5kpEMfVgwrxmDsjj8" target="_blank" class="text-amber-400 hover:underline hover:text-indigo-600">
                                             <i class="fa-solid fa-location-dot"></i>
                                             <small class="text-muted">Address</small>
                                         </a>
 
-                                        <a href="https://vt.tiktok.com/ZS63LhQkK/" target="_blank" class="text-amber-500 hover:underline hover:text-indigo-600">
+                                        <a href="https://vt.tiktok.com/ZS63LhQkK/" target="_blank" class="text-amber-400 hover:underline hover:text-indigo-600">
                                             <i class="fa-solid fa-star"></i>
                                             <small class="text-muted">Review</small>
                                         </a>
@@ -717,12 +717,12 @@
                                         Cozy and comfortable atmosphere, suitable for gathering with friends
                                         friends or just relax.</p>
                                     <div class="flex justify-evenly mt-4">
-                                        <a href="javascript:void(0)" target="_blank" class="text-amber-500 hover:underline hover:text-indigo-600">
+                                        <a href="javascript:void(0)" target="_blank" class="text-amber-400 hover:underline hover:text-indigo-600">
                                             <i class="fa-solid fa-location-dot"></i>
                                             <small class="text-muted">Address</small>
                                         </a>
 
-                                        <a href="https://vt.tiktok.com/ZS63LhQkK/" target="_blank" class="text-amber-500 hover:underline hover:text-indigo-600">
+                                        <a href="https://vt.tiktok.com/ZS63LhQkK/" target="_blank" class="text-amber-400 hover:underline hover:text-indigo-600">
                                             <i class="fa-solid fa-star"></i>
                                             <small class="text-muted">Review</small>
                                         </a>
@@ -738,12 +738,12 @@
                                     <p class="text-gray-500">Stylish decoration and warm atmosphere accompanied live
                                         music that will accompany your every moment.</p>
                                     <div class="flex justify-evenly mt-4">
-                                        <a href="https://maps.app.goo.gl/py88Y5tzecozMu4z6" target="_blank" class="text-amber-500 hover:underline hover:text-indigo-600">
+                                        <a href="https://maps.app.goo.gl/py88Y5tzecozMu4z6" target="_blank" class="text-amber-400 hover:underline hover:text-indigo-600">
                                             <i class="fa-solid fa-location-dot"></i>
                                             <small class="text-muted">Address</small>
                                         </a>
 
-                                        <a href="https://vt.tiktok.com/ZS63DBvbm/" target="_blank" class="text-amber-500 hover:underline hover:text-indigo-600">
+                                        <a href="https://vt.tiktok.com/ZS63DBvbm/" target="_blank" class="text-amber-400 hover:underline hover:text-indigo-600">
                                             <i class="fa-solid fa-star"></i>
                                             <small class="text-muted">Review</small>
                                         </a>
@@ -759,12 +759,12 @@
                                     <p class="text-gray-500">Cozy atmosphere with delicious menu choices, suitable for
                                         relax and enjoy time with friends or family.</p>
                                     <div class="flex justify-evenly mt-4">
-                                        <a href="https://maps.app.goo.gl/8tg8GeeY2dpx384a8" target="_blank" class="text-amber-500 hover:underline hover:text-indigo-600">
+                                        <a href="https://maps.app.goo.gl/8tg8GeeY2dpx384a8" target="_blank" class="text-amber-400 hover:underline hover:text-indigo-600">
                                             <i class="fa-solid fa-location-dot"></i>
                                             <small class="text-muted">Address</small>
                                         </a>
 
-                                        <a href="https://vt.tiktok.com/ZS63D67g4/" target="_blank" class="text-amber-500 hover:underline hover:text-indigo-600">
+                                        <a href="https://vt.tiktok.com/ZS63D67g4/" target="_blank" class="text-amber-400 hover:underline hover:text-indigo-600">
                                             <i class="fa-solid fa-star"></i>
                                             <small class="text-muted">Review</small>
                                         </a>
@@ -781,12 +781,12 @@
                                         unique and beautiful natural scenery, creating
                                         a calm and refreshing dining experience</p>
                                     <div class="flex justify-evenly mt-4">
-                                        <a href="https://maps.app.goo.gl/d3Nwb7m44TFjT36F7" target="_blank" class="text-amber-500 hover:underline hover:text-indigo-600">
+                                        <a href="https://maps.app.goo.gl/d3Nwb7m44TFjT36F7" target="_blank" class="text-amber-400 hover:underline hover:text-indigo-600">
                                             <i class="fa-solid fa-location-dot"></i>
                                             <small class="text-muted">Address</small>
                                         </a>
 
-                                        <a href="https://vt.tiktok.com/ZS63DUPDu/" target="_blank" class="text-amber-500 hover:underline hover:text-indigo-600">
+                                        <a href="https://vt.tiktok.com/ZS63DUPDu/" target="_blank" class="text-amber-400 hover:underline hover:text-indigo-600">
                                             <i class="fa-solid fa-star"></i>
                                             <small class="text-muted">Review</small>
                                         </a>
@@ -804,12 +804,12 @@
                                         hanging out becomes more fun. Enjoy delicious coffee, snacks
                                         appetizing, and comfortable vibes all night long</p>
                                     <div class="flex justify-evenly mt-4">
-                                        <a href="https://maps.app.goo.gl/MUTTGiha7mcN8QV68" target="_blank" class="text-amber-500 hover:underline hover:text-indigo-600">
+                                        <a href="https://maps.app.goo.gl/MUTTGiha7mcN8QV68" target="_blank" class="text-amber-400 hover:underline hover:text-indigo-600">
                                             <i class="fa-solid fa-location-dot"></i>
                                             <small class="text-muted">Address</small>
                                         </a>
 
-                                        <a href="https://vt.tiktok.com/ZS6KYJa1U/" target="_blank" class="text-amber-500 hover:underline hover:text-indigo-600">
+                                        <a href="https://vt.tiktok.com/ZS6KYJa1U/" target="_blank" class="text-amber-400 hover:underline hover:text-indigo-600">
                                             <i class="fa-solid fa-star"></i>
                                             <small class="text-muted">Review</small>
                                         </a>
@@ -921,6 +921,4 @@
             </div><!--end row-->
         </div>
     </section>
-
-    <x-section.footer />
 </div>

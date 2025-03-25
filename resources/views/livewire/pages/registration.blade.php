@@ -1,6 +1,6 @@
-<div class="w-full lg:w-11/12">
+<div class="w-full">
     <section class="breadcrumbs relative pb-0">
-        <div class="absolute inset-0 bg-gradient-to-b from-[#470858]/80 to-[#9E1F63]/30"></div>
+        <div class="absolute inset-0 bg-gradient-to-b from-[#0059A8]/10 to-[#0059A8]/80"></div>
         <div class="py-16 lg:py-28 text-center relative">
             <h2 class="text-white uppercase text-2xl font-semibold tracking-wide lg:text-4xl">Registration</h2>
         </div>
@@ -9,7 +9,7 @@
     <section class="pt-10 pb-24 px-2 lg:px-5 bg-competition">
         <!-- name of each tab group should be unique -->
         <div class="tabs tabs-border justify-evenly">
-            <input type="radio" name="my_tabs_2" class="tab text-lg uppercase text-purple-700" aria-label="Indonesian Participant" checked="checked" />
+            <input type="radio" name="my_tabs_2" class="tab text-lg uppercase text-sky-700" aria-label="Indonesian Participant" checked="checked" />
             <div class="tab-content">
                 <div class="pb-6 text-gray-500">
                     {{-- <span class="bg-amber-100 mt-5 text-amber-800 px-3 py-2 text-sm rounded-xl ">Indonesian Participants</span> --}}
@@ -17,7 +17,7 @@
                     <h2 class="uppercase font-semibold text-[#9E1F63] mb-2 mt-5">{{$category}}</h2>
                     <div class="relative overflow-x-auto shadow sm:rounded-lg ">
                         <table class="w-full text-sm text-left rtl:text-right text-gray-500 ">
-                            <thead class=" text-white uppercase text-center bg-purple-900 ">
+                            <thead class=" text-white uppercase text-center bg-sky-900 ">
                                 <tr>
                                     <th scope="col" class="px-6 py-3">
                                         Category
@@ -39,7 +39,7 @@
                             <tbody>
                                 @foreach ($regLocals as $regLocal)
                                 @if ($regLocal->category_reg == $category)
-                                <tr class="bg-white border-b  border-gray-200 hover:bg-purple-50 ">
+                                <tr class="bg-white border-b  border-gray-200 hover:bg-sky-50 ">
                                     <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap">
                                         {{$regLocal->title}}
                                     </th>
@@ -58,14 +58,14 @@
                             </tbody>
                         </table>
                         <div class="relative mt-2">
-                            <a href="https://expo.virconex-id.com/registration/perapi2025/" class="bg-amber-500 text-white hover:bg-purple-800 p-3 rounded-xl mb-3 float-end"><i class="fa-solid fa-list mx-3"></i>Register Now!</a>
+                            <a href="https://expo.virconex-id.com/registration/perapi2025/" class="bg-amber-500 text-white hover:bg-sky-800 p-3 rounded-xl mb-3 float-end"><i class="fa-solid fa-list mx-3"></i>Register Now!</a>
                         </div>
                     </div>
                     @endforeach
                 </div>
             </div>
 
-            <input type="radio" name="my_tabs_2" class="tab uppercase text-lg text-purple-700 " aria-label="Foreign Participant" />
+            <input type="radio" name="my_tabs_2" class="tab uppercase text-lg text-sky-700 " aria-label="Foreign Participant" />
             <div class="tab-content">
                 <div class="pb-6 text-gray-500">
                     {{-- <span class="bg-amber-100 text-amber-800 px-3 py-2 text-sm rounded-xl mb-3">Foreign Participants</span> --}}
@@ -95,7 +95,7 @@
                             <tbody>
                                 @foreach ($regForeigns as $regForeign)
                                 @if ($regForeign->category_reg == $category)
-                                <tr class="bg-white border-b  border-gray-200 hover:bg-purple-50 ">
+                                <tr class="bg-white border-b  border-gray-200 hover:bg-sky-50 ">
                                     <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap">
                                         {{$regForeign->title}}
                                     </th>
@@ -114,7 +114,7 @@
                             </tbody>
                         </table>
                         <div class="relative mt-2">
-                            <a href="https://expo.virconex-id.com/registration/perapi2025/" class="bg-amber-500 text-white hover:bg-purple-800 p-3 rounded-xl mb-3 float-end"><i class="fa-solid fa-list mx-3"></i>Register Now!</a>
+                            <a href="https://expo.virconex-id.com/registration/perapi2025/" class="bg-amber-500 text-white hover:bg-sky-800 p-3 rounded-xl mb-3 float-end"><i class="fa-solid fa-list mx-3"></i>Register Now!</a>
                         </div>
                     </div>
                     @endforeach
@@ -127,7 +127,7 @@
         <div class=" mt-10">
             <div class="text-center lg:text-start">
                 <h2 class="mb-2 uppercase text-3xl font-semibold">Registration
-                    <span class="text-amber-500">information</span>
+                    <span class="text-amber-400">information</span>
                 </h2>
             </div>
 
@@ -145,5 +145,4 @@
         </div>
     </section>
 
-    <x-section.footer />
 </div>

@@ -69,8 +69,8 @@
     <section class="lg:py-16 py-20 lg:mt-10 grid grid-cols-1 lg:grid-cols-2 px-3 lg:px-8 gap-3 border-b border-dashed border-gray-300">
         <div class="">
             <div class="flex text-start w-fit relative">
-                <img src="assets/images/logo/icon.png" alt="Icon"
-                    class="absolute lg:right-10 lg:-top-22 right-0 -top-15 w-32 lg:w-36">
+                <!-- <img src="assets/images/logo/icon.png" alt="Icon"
+                    class="absolute lg:right-10 lg:-top-22 right-0 -top-15 w-32 lg:w-36"> -->
                 <h1 class="text-xl lg:text-2xl text-[#FFCD03] uppercase font-bold">Indonesian Burn & <br> wound
                     care meeting
                     <span class="badge bg-red-700 text-white border-none lowercase text-xs">in conjuntion
@@ -78,12 +78,12 @@
                     <br>7<sup class="lowercase">th</sup> updates in plastic surgery
                 </h1>
             </div>
-            <img src="assets/images/logo/logo.png" class="w-full max-w-xs rounded-lg hover:scale-105 transition-all duration-500" alt="">
+            <img src="assets/images/logo/logo.png" class="w-52 rounded-lg hover:scale-105 transition-all duration-500" alt="">
             <div class="flex flex-col md:flex-row lg:justify-start justify-center items-center gap-3 mt-8">
                 <div
                     class="z-10 hover:cursor-pointer max-w-sm p-6 bg-white border border-sky-50 rounded-lg shadow-md hover:bg-sky-100">
                     <div class="flex items-center">
-                        <div class="shrink-0 bg-sky-900 py-3 px-4 rounded-full">
+                        <div class="shrink-0 bg-amber-400 py-3 px-4 rounded-full">
                             <i class="fa fa-calendar-o text-4xl text-white"></i>
                         </div>
                         <div class="flex-1 min-w-0 ms-4">
@@ -99,7 +99,7 @@
                 <div
                     class="z-10 hover:cursor-pointer max-w-sm p-6 bg-white border border-sky-50 rounded-lg shadow-md hover:bg-sky-100">
                     <div class="flex items-center px-5">
-                        <div class="shrink-0 bg-sky-900 py-3 px-4 rounded-full">
+                        <div class="shrink-0 bg-amber-400 py-3 px-4 rounded-full">
                             <i class="fa fa-map-marker text-4xl text-white"></i>
                         </div>
                         <div class="flex-1 min-w-0 ms-4">
@@ -115,21 +115,33 @@
             </div>
         </div>
 
-        <img src="assets/images/mockup.png" class="w-full rounded-lg" alt="">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-5 align-items-center">
+            <div class="flex flex-col gap-4">
+                <div class="rounded-xl bg-white shadow-lg">
+                    <img src="assets/images/bandung/5.jpg" class="w-full rounded-xl sepia-50" alt="bandung 1">
+                </div>
+                <div class="rounded-xl bg-white shadow-lg">
+                    <img src="assets/images/bandung/6.jpg" class="w-full rounded-xl" alt="bandung 2">
+                </div>
+            </div>
+            <div class="rounded-xl bg-white shadow-lg">
+                <img src="assets/images/bandung/4.jpg" class="w-full rounded-xl object-cover h-full sepia-50" alt="bandung 3">
+            </div>
+        </div>
     </section>
 
     <section class="lg:py-16 py-20">
         <div class="w-full pt-5">
             <div class="text-center pb-6 m-auto">
                 <h2 class="mb-1 text-3xl font-bold uppercase">important <span
-                        class="text-amber-500 ">Dates</span></h2>
+                        class="text-amber-400 ">Dates</span></h2>
             </div>
             <livewire:section.important-date />
         </div>
     </section>
 
-    <section class="text-white feature relative z-0 start-0 py-28">
-        <div class="absolute inset-0 bg-gradient-to-b from-[#0059A8]/80 to-[#0059A8]"></div>
+    <section class="text-white splash relative z-0 start-0 py-28">
+        <div class="absolute inset-0 bg-gradient-to-b from-[#0059A8]/60 to-[#0059A8]/90"></div>
         <div class="relative">
             <div class="w-full max-w-6xl mx-auto border-b border-white border-opacity-35">
                 <div class="mb-16">
@@ -155,7 +167,7 @@
                                 <h1 class="text-amber-400 m-0 text-4xl md:text-5xl font-semibold"><span class="num"
                                         data-val="20"></span><span>+</span>
                                 </h1>
-                                <p class="text-xs">Workshops, Master Classes <br> & Master Courses</p>
+                                <p class="text-xs">Workshops</p>
                             </div>
                         </div>
                         <div class="w-full border-e border-opacity-35 border-white">
@@ -170,35 +182,25 @@
                 </div>
             </div>
             <div class="mt-10 mb-6">
-                <div class="grid grid-cols-1 lg:grid-cols-2 gap-5">
-                    <div class="order-2 lg:order-1 p-2">
-                        <div class="grid grid-cols-1 place-items-center gap-5">
-                            <div class="lg:w-2/3 w-full max-w-sm flex flex-col items-center">
-                                <div class="image-welcome">
-                                    <img src="assets/images/defry.png" alt="faq-general-image" class="w-60">
-                                </div>
-                                <div class="p-4 rounded-lg bg-amber-500 w-full">
-                                    <div class="ps-4 border-s border-white border-spacing-7">
-                                        <p class="text-gray-200 text-xs italic">" Congress Chairman of 28th InaPRAS 2025
-                                            "</p>
-                                        <h6 class="font-semibold">Defry Rivandra Utama</h6>
-                                    </div>
-                                </div>
+                <div class="grid grid-cols-1 lg:grid-cols-2 justify-items-center gap-5">
+                    <div class="order-2 lg:order-2 p-2">
+                        <div class="w-full max-w-sm flex flex-col items-center">
+                            <div class="image-welcome">
+                                {{-- <img src="assets/images/defry.png" alt="faq-general-image" class="w-60"> --}}
                             </div>
-                            <div class="lg:w-2/3 w-full max-w-sm flex flex-col items-center">
-                                <div class="image-welcome">
-                                    <img src="assets/images/najat.png" alt="faq-general-image" class="w-60">
-                                </div>
-                                <div class="p-4 rounded-lg bg-amber-500 w-full">
-                                    <div class="ps-4 border-s border-white border-spacing-7">
-                                        <p class="text-gray-200 text-xs italic">" President of InaPRAS "</p>
-                                        <h6 class="font-semibold">Najatullah</h6>
-                                    </div>
+                            <div class="p-4 rounded-lg bg-amber-400 w-full">
+                                <div class="ps-4 border-s border-white border-spacing-7">
+                                    <p class="text-white text-xs italic">" Congress Chairman
+                                        "</p>
+                                    {{-- <h6 class="font-semibold">Defry Rivandra Utama</h6> --}}
                                 </div>
                             </div>
                         </div>
+                        
                     </div>
-                    <div class="order-1 lg:order-2 p-2">
+                    <div class="order-1 lg:order-1 p-2">
+                        <h2 class="text-4xl font-semibold text-white uppercase">Welcome <span
+                                class="text-amber-400">message </span></h2>
                         @foreach ($welcomeMessages as $welcomeMessage)
                         <div class="pr-2">
                             <div class="pb-4 text-justify flex flex-col gap-2 text-gray-300">
@@ -216,26 +218,25 @@
         </div>
     </section>
 
-    <livewire:section.competition />
+    <!-- <livewire:section.competition /> -->
 
     <section class="w-full pt-24 pb-3 px-2 lg:px-4">
         <div class="text-center mb-5 pb-10">
-            <p class="mb-1 font-semibold tracking-wide">Venue</p>
-            <h2 class=" text-4xl font-semibold uppercase tracking-wide mb-1">GET DIRECTION TO THE <span
-                    class="text-amber-500">Venue</span></h2>
+            <p class="mb-1 font-semibold">Venue</p>
+            <h2 class=" text-4xl font-semibold uppercase mb-1">GET DIRECTION TO THE <span
+                    class="text-amber-400">Venue</span></h2>
         </div>
         <div class="">
             <div class="flex flex-col lg:flex-row gap-5">
                 <div class="lg:w-1/3 w-full">
                     <div
-                        class="py-10 px-4 text-white rounded-lg shadow-md bg-gradient-to-tr from-indigo-900 to-purple-900">
+                        class="py-10 px-4 text-white rounded-lg shadow-md bg-gradient-to-br from-[#0059A8] to-[#6CB4E3]">
                         <div class="">
                             <h5 class="text-amber-400 pb-2 tracking-wide font-semibold">EVENT VENUE:</h5>
-                            <p class="pb-5 m-0 text-sm">JW Marriott Hotel Medan</p>
+                            <p class="pb-5 m-0 text-sm">Holiday Inn Bandung Pasteur</p>
                             <h5 class="text-amber-400 pb-2 tracking-wide font-semibold">ADDRESS:</h5>
-                            <p class="pb-5 m-0 text-sm">Putri Hijau No.10, Kesawan, Kec. Medan Baru,
-
-                                Medan City, North Sumatra</p>
+                            <p class="pb-5 m-0 text-sm">
+                                Dr. Djundjunan Street No.96, Pasteur, Kec. Sukajadi, Bandung City, West java</p>
                             <!-- <h5 class="text-white pb-2">RECEPTION INFO:</h5>
                                     <p class="pb-5 m-0">Booking: (+62) 1919-2020</p> -->
                             <a class="hover:text-amber-400">Get Directions</a>
@@ -243,24 +244,23 @@
                     </div>
                 </div>
                 <div class="lg:w-2/3 w-full px-1">
-                    <iframe class="rounded-lg w-full h-full"
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3981.960159465498!2d98.67325207477667!3d3.596605750239572!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x303131c3f6c8d037%3A0x54771c0e776d21fe!2sJW%20Marriott%20Hotel%20Medan!5e0!3m2!1sid!2sid!4v1741591719972!5m2!1sid!2sid"></iframe>
+                    <iframe class="rounded-lg w-full h-full" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.954134046684!2d107.58806527526528!3d-6.896089693103064!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e665b08b263d%3A0x2edd60e3b317f7b4!2sHoliday%20Inn%20Bandung%20Pasteur%2C%20an%20IHG%20Hotel!5e0!3m2!1sen!2sid!4v1742868627547!5m2!1sen!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
 
-            <div class="grid grid-cols-1 lg:grid-cols-3 gap-2 mt-5">
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-2 mt-5 justify-items-center">
 
-                <div class="w-full max-w-sm" data-src="assets/images/group/4.jpg">
-                    <a><img src="assets/images/medan/4.jpg" class="w-full rounded-xl shadow-md"
-                            alt="Santika Premiere Dyandra Hotel & Convention"></a>
+                <div class="w-full max-w-sm">
+                    <a><img src="assets/images/bandung/1.jpg" class="w-full rounded-xl shadow-md"
+                            alt="Holiday Inn Bandung Pasteur"></a>
                 </div>
-                <div class="w-full max-w-sm" data-src="assets/images/group/5.jpg">
-                    <a><img src="assets/images/medan/5.jpg" class="w-full rounded-xl shadow-md"
-                            alt="Santika Premiere Dyandra Hotel & Convention"></a>
+                <div class="w-full max-w-sm">
+                    <a><img src="assets/images/bandung/2.webp" class="w-full rounded-xl shadow-md"
+                            alt="Holiday Inn Bandung Pasteur"></a>
                 </div>
-                <div class="w-full max-w-sm" data-src="assets/images/group/6.jpg">
-                    <a><img src="assets/images/medan/6.jpg" class="w-full rounded-xl shadow-md"
-                            alt="Santika Premiere Dyandra Hotel & Convention"></a>
+                <div class="w-full max-w-sm">
+                    <a><img src="assets/images/bandung/3.webp" class="w-full rounded-xl shadow-md"
+                            alt="Holiday Inn Bandung Pasteur"></a>
                 </div>
             </div>
         </div>

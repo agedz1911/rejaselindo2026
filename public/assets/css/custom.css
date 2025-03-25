@@ -16,10 +16,10 @@ body {
 }
 
 .breadcrumbs {
-    background-image: url(../images/mockup.png);
+    background-image: url(../images/brecumb.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center top;
+    background-position: left top;
 }
 
 .inner-banner {
@@ -34,7 +34,7 @@ body {
 }
 
 .feature {
-    background-image: url(../images/5.png);
+    background-image: url(../images/7.png);
     background-size: cover;
     background-position: top center;
 }
@@ -47,7 +47,7 @@ body {
 }
 
 .image-welcome {
-    background-image: url(../images/3.png);
+    background-image: url(../images/3-.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
