@@ -12,7 +12,7 @@
             @foreach ($uniqueCategories as $category)
             <div class="card shadow-sm w-full max-w-md">
                 <div class="card-body">
-                    <h2 class="card-title text-[#0059A8]">{{$category}}</h2>
+                    <h2 class="card-title uppercase text-[#0059A8]">{{$category}}</h2>
                     @foreach ($committees as $committee)
                     @if ($committee->category == $category)
                     <ul class= "list-disc list-inside">
