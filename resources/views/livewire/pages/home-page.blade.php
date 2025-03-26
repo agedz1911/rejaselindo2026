@@ -37,8 +37,7 @@
         </div>
     </section>
 
-    <section
-        class="pb-10 pt-0 md:-mt-20 w-full max-w-5xl mx-auto px-2">
+    <section class="pb-10 pt-0 md:-mt-20 w-full max-w-5xl mx-auto px-2">
         <div class="card bg-gradient-to-br from-[#0059A8] to-[#6CB4E3] w-full">
             <div class="card-body splash">
                 <div id="countdown" class="flex gap-3 w-full lg:gap-8 ">
@@ -66,7 +65,8 @@
         </div>
     </section>
 
-    <section class="lg:py-16 py-20 lg:mt-10 grid grid-cols-1 lg:grid-cols-2 px-3 lg:px-8 gap-3 border-b border-dashed border-gray-300">
+    <section
+        class="lg:py-16 py-20 lg:mt-10 grid grid-cols-1 lg:grid-cols-2 px-3 lg:px-8 gap-3 border-b border-dashed border-gray-300">
         <div class="">
             <div class="flex text-start w-fit relative">
                 <!-- <img src="assets/images/logo/icon.png" alt="Icon"
@@ -78,7 +78,8 @@
                     <br>7<sup class="lowercase">th</sup> updates in plastic surgery
                 </h1>
             </div>
-            <img src="assets/images/logo/logo.png" class="w-52 rounded-lg hover:scale-105 transition-all duration-500" alt="">
+            <img src="assets/images/logo/logo.png" class="w-52 rounded-lg hover:scale-105 transition-all duration-500"
+                alt="">
             <div class="flex flex-col md:flex-row lg:justify-start justify-center items-center gap-3 mt-8">
                 <div
                     class="z-10 hover:cursor-pointer max-w-sm p-6 bg-white border border-sky-50 rounded-lg shadow-md hover:bg-sky-100">
@@ -125,7 +126,8 @@
                 </div>
             </div>
             <div class="rounded-xl bg-white shadow-lg">
-                <img src="assets/images/bandung/4.jpg" class="w-full rounded-xl object-cover h-full sepia-50" alt="bandung 3">
+                <img src="assets/images/bandung/4.jpg" class="w-full rounded-xl object-cover h-full sepia-50"
+                    alt="bandung 3">
             </div>
         </div>
     </section>
@@ -133,45 +135,44 @@
     <section class="lg:py-16 py-20">
         <div class="w-full pt-5">
             <div class="text-center pb-6 m-auto">
-                <h2 class="mb-1 text-3xl font-bold uppercase">important <span
-                        class="text-amber-400 ">Dates</span></h2>
+                <h2 class="mb-1 text-3xl font-bold uppercase">important <span class="text-amber-400 ">Dates</span></h2>
             </div>
             <livewire:section.important-date />
         </div>
     </section>
 
-    <section class="text-white splash relative z-0 start-0 py-28">
-        <div class="absolute inset-0 bg-gradient-to-b from-[#0059A8]/60 to-[#0059A8]/90"></div>
+    <section class="bg-gradient-to-b from-[#0059A8] to-[#6CB4E3] relative z-0 py-28">
+        <div class="absolute inset-0 feature start-0"></div>
         <div class="relative">
-            <div class="w-full max-w-6xl mx-auto border-b border-white border-opacity-35">
+            <div class="w-full max-w-6xl mx-auto border-b border-gray-500 border-opacity-35">
                 <div class="mb-16">
                     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-                        <div class="w-full border-e border-opacity-35 border-white ">
-                            <div class="border-b border-opacity-25 border-white md:border-b-0 text-center py-5 px-2">
+                        <div class="w-full border-e border-opacity-35 border-gray-500 ">
+                            <div class="border-b border-opacity-25 border-gray-500 md:border-b-0 text-center py-5 px-2">
                                 <h1 class="text-amber-400 m-0 text-4xl md:text-5xl font-semibold"><span class="num"
                                         data-val="100"></span><span>+</span>
                                 </h1>
                                 <p class="text-xs">Speakers</p>
                             </div>
                         </div>
-                        <div class="w-full border-e border-opacity-35 border-white">
-                            <div class="border-b border-opacity-25 border-white md:border-b-0 text-center py-5 px-2">
+                        <div class="w-full border-e border-opacity-35 border-gray-500">
+                            <div class="border-b border-opacity-25 border-gray-500 md:border-b-0 text-center py-5 px-2">
                                 <h1 class="text-amber-400 m-0 text-4xl md:text-5xl font-semibold"><span class="num"
                                         data-val="50"></span><span>+</span>
                                 </h1>
                                 <p class="text-xs">Symposium</p>
                             </div>
                         </div>
-                        <div class="w-full border-e border-opacity-35 border-white">
-                            <div class="border-b border-opacity-25 border-white md:border-b-0 text-center py-5 px-2">
+                        <div class="w-full border-e border-opacity-35 border-gray-500">
+                            <div class="border-b border-opacity-25 border-gray-500 md:border-b-0 text-center py-5 px-2">
                                 <h1 class="text-amber-400 m-0 text-4xl md:text-5xl font-semibold"><span class="num"
                                         data-val="20"></span><span>+</span>
                                 </h1>
                                 <p class="text-xs">Workshops</p>
                             </div>
                         </div>
-                        <div class="w-full border-e border-opacity-35 border-white">
-                            <div class="border-b border-opacity-25 border-white md:border-b-0 text-center py-5 px-2">
+                        <div class="w-full border-e border-opacity-35 border-gray-500">
+                            <div class="border-b border-opacity-25 border-gray-500 md:border-b-0 text-center py-5 px-2">
                                 <h1 class="text-amber-400 m-0 text-4xl md:text-5xl font-semibold"><span class="num"
                                         data-val="30"></span><span>+</span>
                                 </h1>
@@ -196,15 +197,15 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                     </div>
                     <div class="order-1 lg:order-1 p-2">
-                        <h2 class="text-4xl font-semibold text-white uppercase">Welcome <span
+                        <h2 class="text-4xl font-semibold uppercase">Welcome <span
                                 class="text-amber-400">message </span></h2>
                         @foreach ($welcomeMessages as $welcomeMessage)
                         <div class="pr-2">
                             <div class="pb-4 text-justify flex flex-col gap-2 text-gray-300">
-                                <h2 class="text-4xl font-semibold text-white uppercase">Welcome <span
+                                <h2 class="text-4xl font-semibold uppercase">Welcome <span
                                         class="text-amber-500">message </span></h2>
                                 {!! str($welcomeMessage->description)->markdown()->sanitizeHtml() !!}
 
@@ -244,7 +245,10 @@
                     </div>
                 </div>
                 <div class="lg:w-2/3 w-full px-1">
-                    <iframe class="rounded-lg w-full h-full" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.954134046684!2d107.58806527526528!3d-6.896089693103064!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e665b08b263d%3A0x2edd60e3b317f7b4!2sHoliday%20Inn%20Bandung%20Pasteur%2C%20an%20IHG%20Hotel!5e0!3m2!1sen!2sid!4v1742868627547!5m2!1sen!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe class="rounded-lg w-full h-full"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.954134046684!2d107.58806527526528!3d-6.896089693103064!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e665b08b263d%3A0x2edd60e3b317f7b4!2sHoliday%20Inn%20Bandung%20Pasteur%2C%20an%20IHG%20Hotel!5e0!3m2!1sen!2sid!4v1742868627547!5m2!1sen!2sid"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
 

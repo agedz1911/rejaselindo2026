@@ -15,7 +15,7 @@
                     Committee <i class="fa-solid fa-angle-right"></i></a>
             </li>
             <li>
-                <a href="/faculties" wire:navigate
+                <a href="#" wire:navigate
                     class="{{ request()->is('faculties') ? 'text-amber-400' : '' }} justify-between hover:text-amber-400 ">Faculties
                     <i class="fa-solid fa-angle-right"></i></a>
             </li>
@@ -28,12 +28,12 @@
             Scientific Program <i class="fa-solid fa-angle-down"></i></div>
         <ul tabindex="0" class="dropdown-content menu bg-base-100 rounded-box gap-2 w-60 p-2 shadow-sm">
             <li>
-                <a href="/program-at-glance" wire:navigate
+                <a href="#" wire:navigate
                     class="{{ request()->is('program-at-glance') ? 'text-amber-400' : '' }} justify-between hover:text-amber-400">Program
                     at Glance <i class="fa-solid fa-angle-right"></i></a>
             </li>
             <li>
-                <a href="/scientific-schedule" wire:navigate
+                <a href="#" wire:navigate
                     class="{{ request()->is('scientific-schedule') ? 'text-amber-400' : '' }} justify-between hover:text-amber-400">Scientific
                     Schedule <i class="fa-solid fa-angle-right"></i></a>
             </li>
@@ -41,22 +41,22 @@
 
 
     <li>
-        <a href="/registration" wire:navigate
+        <a href="#" wire:navigate
             class="{{ request()->is('registration') ? 'text-amber-400' : 'text-white' }} hover:text-amber-500 hover:underline">Registration
         </a>
     </li>
     <li>
-        <a href="/accommodation" wire:navigate
+        <a href="#" wire:navigate
             class="{{ request()->is('accommodation') ? 'text-amber-400' : 'text-white' }} hover:text-amber-500 hover:underline">Accommodation
         </a>
     </li>
     <li>
-        <a href="/submission" wire:navigate
+        <a href="#" wire:navigate
             class="{{ request()->is('submission') ? 'text-amber-400' : 'text-white' }} hover:text-amber-500 hover:underline">Submission
         </a>
     </li>
     <li>
-        <a href="/visiting" wire:navigate
+        <a href="#" wire:navigate
             class="{{ request()->is('visiting') ? 'text-amber-400' : 'text-white' }} hover:text-amber-500 hover:underline">Venue
         </a>
     </li>

@@ -31,13 +31,13 @@
                                 <i class="fa fa-phone text-xl"></i>
                             </a>
                         </li>
-                        <li class="bg-amber-400 rounded-md p-2 w-10 hover:bg-sky-800 tooltip-bottom tooltip" data-tip="+62 811 1609 822">
-                            <a href="tel:+628111609822" class="text-white">
+                        <li class="bg-amber-400 rounded-md p-2 w-10 hover:bg-sky-800 tooltip-bottom tooltip" data-tip="+62 851-7992-4961">
+                            <a href="tel:+6285179924961" class="text-white">
                                 <i class="fa fa-mobile-screen text-xl"></i>
                             </a>
                         </li>
-                        <li class="bg-amber-400 rounded-md p-2 w-10 hover:bg-sky-800 tooltip-bottom tooltip" data-tip="+62 811 1609 822">
-                            <a href="https://wa.me/+628111609822" class="text-green-500">
+                        <li class="bg-amber-400 rounded-md p-2 w-10 hover:bg-sky-800 tooltip-bottom tooltip" data-tip="+62 851-7992-4961">
+                            <a href="https://wa.me/+6285179924961" class="text-green-500">
                                 <i class="fa fa-whatsapp text-xl"></i>
                             </a>
                         </li>
@@ -51,12 +51,12 @@
             </div>
             <div class="pb-10 mt-4">
                 <ul class="p-0 m-0 flex flex-row flex-wrap gap-4 lg:gap-6 justify-center">
-                    <li class="text-sm font-normal hover:text-amber-400 hover:underline"><a href="/submission" wire:navigate>Submission</a></li>
+                    <li class="text-sm font-normal hover:text-amber-400 hover:underline"><a href="#" wire:navigate>Submission</a></li>
                     <li class="text-sm font-normal hover:text-amber-400 hover:underline"><a href="/organizing-committee" wire:navigate>Committee</a></li>
-                    <li class="text-sm font-normal hover:text-amber-400 hover:underline"><a wire:navigate href="/faculties">Faculties</a></li>
-                    <li class="text-sm font-normal hover:text-amber-400 hover:underline"><a wire:navigate href="/scientific-schedule">Schedule</a></li>
-                    <li class="text-sm font-normal hover:text-amber-400 hover:underline"><a wire:navigate href="/registration">Registration</a></li>
-                    <li class="text-sm font-normal hover:text-amber-400 hover:underline"><a wire:navigate href="/visiting">Venue</a></li>
+                    <li class="text-sm font-normal hover:text-amber-400 hover:underline"><a wire:navigate href="#">Faculties</a></li>
+                    <li class="text-sm font-normal hover:text-amber-400 hover:underline"><a wire:navigate href="#">Schedule</a></li>
+                    <li class="text-sm font-normal hover:text-amber-400 hover:underline"><a wire:navigate href="#">Registration</a></li>
+                    <li class="text-sm font-normal hover:text-amber-400 hover:underline"><a wire:navigate href="#">Venue</a></li>
                 </ul>
             </div>
         </div>

@@ -15,20 +15,16 @@
             <span class="text-xs">
                 Contact Us On:
             </span>
-            <a class="btn btn-sm shadow-none" href="#">
+            <a class="btn btn-sm shadow-none" href="mailto:burn2025@pharma-pro.com">
                 <i class="fa fa-envelope">
                 </i>
             </a>
-            <a class="btn btn-sm shadow-none" href="#">
+            <a class="btn btn-sm shadow-none" href="https://wa.me/+6285179924961" target="_blankx`">
                 <i class="fab fa-whatsapp text-green-600">
                 </i>
             </a>
             <a class="btn btn-sm shadow-none" href="#">
                 <i class="fab fa-instagram text-rose-400">
-                </i>
-            </a>
-            <a class="btn btn-sm shadow-none" href="#">
-                <i class="fa fa-phone">
                 </i>
             </a>
         </div>
@@ -48,13 +44,14 @@
                     <x-section.menu />
                 </div>
                 <div class="navbar-end">
-                    <div class="btn lg:btn-outline rounded-lg lg:border-white lg:text-white/80 lg:hover:text-gray-900 shadow-none">
+                    <div onclick="contact.showModal()"
+                        class="btn lg:btn-outline rounded-lg lg:border-white lg:text-white/80 lg:hover:text-gray-900 shadow-none">
                         <i class="fa-solid fa-circle-info"></i>
                         Contact
                     </div>
                     <div class="flex-none lg:hidden">
                         <label for="my-drawer-3" aria-label="open sidebar" class="btn btn-square btn-ghost">
-                            <i class="fa fa-bars text-white text-2xl"></i>
+                            <i class="fa fa-bars text-2xl"></i>
                         </label>
                     </div>
                 </div>
@@ -69,4 +66,17 @@
             </ul>
         </div>
     </div>
+    <dialog id="contact" class="modal px-1">
+        <div class="modal-box w-full max-w-5xl">
+            <form method="dialog">
+                <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
+            </form>
+            <div class="flex justify-center">
+                <x-section.contact-icon />
+            </div>
+        </div>
+        <form method="dialog" class="modal-backdrop">
+            <button>close</button>
+        </form>
+    </dialog>
 </nav>

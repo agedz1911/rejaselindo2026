@@ -14,11 +14,12 @@ use App\Livewire\Section\Sponsor;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', HomePage::class);
-Route::get('/topics', function() {
-    return view('pages');
-});
-
 Route::get('/organizing-committee', Committee::class);
+
+
+// Route::get('/topics', function() {
+//     return view('pages');
+// });
 Route::get('/program-at-glance', AtGlance::class);
 Route::get('/scientific-schedule', Schedule::class);
 Route::get('/registration', Registration::class);
