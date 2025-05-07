@@ -14,7 +14,7 @@
                 <div class="pb-6 text-gray-500">
                     {{-- <span class="bg-amber-100 mt-5 text-amber-800 px-3 py-2 text-sm rounded-xl ">Indonesian Participants</span> --}}
                     @foreach ($uniqueLocals as $category)
-                    <h2 class="uppercase font-semibold text-[#9E1F63] mb-2 mt-5">{{$category}}</h2>
+                    <h2 class="uppercase font-semibold text-[#0059A8] mb-2 mt-5">{{$category}}</h2>
                     <div class="relative overflow-x-auto shadow sm:rounded-lg ">
                         <table class="w-full text-sm text-left rtl:text-right text-gray-500 ">
                             <thead class=" text-white uppercase text-center bg-sky-900 ">
@@ -65,15 +65,15 @@
                 </div>
             </div>
 
-            <input type="radio" name="my_tabs_2" class="tab uppercase text-lg text-sky-700 " aria-label="Foreign Participant" />
+            <input type="radio" name="my_tabs_2" class="tab uppercase text-lg text-sky-700 " aria-label="International Participant" />
             <div class="tab-content">
                 <div class="pb-6 text-gray-500">
                     {{-- <span class="bg-amber-100 text-amber-800 px-3 py-2 text-sm rounded-xl mb-3">Foreign Participants</span> --}}
                     @foreach ($uniqueForeigns as $category)
-                    <h2 class="uppercase font-semibold text-[#9E1F63] mb-2 mt-5">{{$category}}</h2>
-                    <div class="relative overflow-x-auto shadow sm:rounded-lg mt-5">
+                    <h2 class="uppercase font-semibold text-purple-900 mb-2 mt-5">{{$category}}</h2>
+                    <div class="relative overflow-x-auto shadow sm:rounded-lg">
                         <table class="w-full text-sm text-left rtl:text-right text-gray-500 ">
-                            <thead class=" text-white uppercase text-center bg-[#9E1F63] ">
+                            <thead class=" text-white uppercase text-center bg-purple-900 ">
                                 <tr>
                                     <th scope="col" class="px-6 py-3">
                                         Category

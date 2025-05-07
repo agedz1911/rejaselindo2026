@@ -205,8 +205,7 @@
                         @foreach ($welcomeMessages as $welcomeMessage)
                         <div class="pr-2">
                             <div class="pb-4 text-justify flex flex-col gap-2 text-gray-300">
-                                <h2 class="text-4xl font-semibold uppercase">Welcome <span
-                                        class="text-amber-500">message </span></h2>
+                                
                                 {!! str($welcomeMessage->description)->markdown()->sanitizeHtml() !!}
 
                             </div>
