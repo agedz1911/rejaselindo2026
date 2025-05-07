@@ -24,11 +24,11 @@
                                     </th>
                                     <th scope="col" class="px-6 py-3">
                                         Early Bird Registration <br>
-                                        up to 25 March 2025
+                                        up to 4 Aug 2025
                                     </th>
                                     <th scope="col" class="px-6 py-3">
                                         Late Registration <br>
-                                        After 25 March up to 28 Jul 2025
+                                        After 4 Aug up to 18 Nov 2025
                                     </th>
                                     <th scope="col" class="px-6 py-3">
                                         Onsite Registration
@@ -80,11 +80,11 @@
                                     </th>
                                     <th scope="col" class="px-6 py-3">
                                         Early Bird Registration <br>
-                                        up to 25 March 2025
+                                        up to 4 Aug 2025
                                     </th>
                                     <th scope="col" class="px-6 py-3">
                                         Late Registration <br>
-                                        After 25 March up to 28 Jul 2025
+                                        After 4 Aug up to 18 Nov 2025
                                     </th>
                                     <th scope="col" class="px-6 py-3">
                                         Onsite Registration
