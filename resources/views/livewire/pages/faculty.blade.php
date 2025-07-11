@@ -89,6 +89,7 @@
                             </dialog>
                             @endforeach
                         </div>
+                        <p class="text-xs italic">*within confirmation</p>
                         <div class="mt-5 border-t border-dashed pt-3">
                             {{ $indofaculties->links() }}
                         </div>
@@ -116,7 +117,7 @@
                                         class="text-xl font-semibold text-amber-500 hover:cursor-pointer hover:text-sky-700">
                                         {{$foreign->name}}
                                     </h2>
-                                    <p>{{$foreign->description}}</p>
+                                    <p>{{$foreign->country}}</p>
                                 </div>
                             </div>
 
@@ -165,6 +166,7 @@
                             </dialog>
                             @endforeach
                         </div>
+                        <p class="text-xs italic">*within confirmation</p>
                         <div class="mt-5 border-t border-dashed pt-3">
                             {{ $foreignfaculties->links() }}
                         </div>
