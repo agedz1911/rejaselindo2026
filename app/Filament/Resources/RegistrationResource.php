@@ -32,15 +32,8 @@ class RegistrationResource extends Resource
                 Select::make('category_reg')
                     ->options([
                         'Symposium' => 'Symposium',
-                        'Live Surgery' => 'Live Surgery',
-                        'CADAVERIC DISSECTION COURSE' => 'CADAVERIC DISSECTION COURSE',
-                        'MASTER COURSES' => 'MASTER COURSES',
-                        'INSTRUCTIONAL COURSES' => 'INSTRUCTIONAL COURSES',
-                        'PACKAGE REGISTRATION: PLASTIC SURGEON' => 'PACKAGE REGISTRATION: PLASTIC SURGEON',
-                        'PACKAGE REGISTRATION: OTHER SPECIALIST' => 'PACKAGE REGISTRATION: OTHER SPECIALIST',
-                        'PACKAGE REGISTRATION: GENERAL PRACTIONER (GP)' => 'PACKAGE REGISTRATION: GENERAL PRACTIONER (GP)',
-                        'PACKAGE REGISTRATION: RESIDENT' => 'PACKAGE REGISTRATION: RESIDENT',
-                        'Master Class' => 'Master Class',
+                        'AESTHETIC WORKSHOP PLASTIC SURGEON & PLASTIC SURGERY RESIDENT' => 'AESTHETIC WORKSHOP PLASTIC SURGEON & PLASTIC SURGERY RESIDENT',
+                        'GENERAL WORKSHOP' => 'GENERAL WORKSHOP',
                     ])
                     ->native(false),
                 Select::make('wilayah_reg')

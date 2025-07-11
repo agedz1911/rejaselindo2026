@@ -15,7 +15,7 @@
                     Committee <i class="fa-solid fa-angle-right"></i></a>
             </li>
             <li>
-                <a href="#" wire:navigate
+                <a href="/faculties" wire:navigate
                     class="{{ request()->is('faculties') ? 'text-amber-400' : '' }} justify-between hover:text-amber-400 ">Faculties
                     <i class="fa-solid fa-angle-right"></i></a>
             </li>
