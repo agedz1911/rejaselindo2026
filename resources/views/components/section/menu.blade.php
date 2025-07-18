@@ -51,7 +51,7 @@
         </a>
     </li>
     <li>
-        <a href="#" wire:navigate
+        <a href="/submission" wire:navigate
             class="{{ request()->is('submission') ? 'text-amber-400' : 'text-white' }} hover:text-amber-500 hover:underline">Submission
         </a>
     </li>
