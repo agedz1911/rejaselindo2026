@@ -7,6 +7,7 @@ use App\Filament\Clusters\ScientificSchedule\Resources\ScheduleSessionResource\P
 use App\Filament\Clusters\ScientificSchedule\Resources\ScheduleSessionResource\RelationManagers;
 use App\Models\ScheduleSession;
 use Filament\Forms;
+use Filament\Forms\Components\ColorPicker;
 use Filament\Forms\Components\DatePicker;
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\Textarea;
@@ -48,9 +49,22 @@ class ScheduleSessionResource extends Resource
                 DatePicker::make('date')
                     ->native(false),
                 TextInput::make('time'),
-                TextInput::make('room'),
+                Select::make('room')
+                    ->options([
+                        'Pasteur Convention Center 1 & 2' => 'Pasteur Convention Center 1 & 2',
+                        'Pasteur Convention Center 3' => 'Pasteur Convention Center 3',
+                        'Empire 3' => 'Empire 3',
+                        'Empire 4' => 'Empire 4',
+                        'Empire 5' => 'Empire 5',
+                    ])
+                    ->searchable()
+                    ->required()
+                    ->native(false),
                 TextInput::make('moderator'),
                 Textarea::make('panelist'),
+                ColorPicker::make('color'),
+                TextInput::make('no_urut')
+                    ->numeric()
             ]);
     }
 

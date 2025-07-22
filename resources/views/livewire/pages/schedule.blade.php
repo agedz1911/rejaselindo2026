@@ -114,7 +114,7 @@
                     <div class="collapse-title font-semibold">{{$atglance->title_ses}} - <span class="text-xs"><i
                                 class="fa fa-map-marker text-[#0059A8]"></i> {{$atglance->room}} </span></div>
                     <div class="collapse-content text-sm">
-                        <div class="flex flex-wrap justify-between gap-4 items-start">
+                        <div class="">
                             <div>
                                 <p class="mb-1">
                                     <span class="font-semibold">Session:</span> {{$atglance->title_ses}}
@@ -122,11 +122,11 @@
                                 <p class="mb-2"><i class="fa fa-clock text-[#0059A8]"></i> {{$atglance->time}} | <i
                                         class="fa fa-map-marker text-[#0059A8]"></i> {{$atglance->room}}</p>
                             </div>
-                            <div>
+                            <div class="w-full">
                                 {{-- {{$atglance->category_sesi}} --}}
-                                <p class="font-semibold">Moderator: <span class="font-normal">
+                                <p class="font-semibold">Moderator: <span class="font-normal text-gray-500">
                                         {{$atglance->moderator}}</span></p>
-                                <p class="font-semibold">Panelists: <br> <span class="font-normal">
+                                <p class="font-semibold">Panelists: <span class="font-normal text-gray-500">
                                         {{$atglance->panelist}}</span></p>
                             </div>
                         </div>

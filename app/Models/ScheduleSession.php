@@ -17,7 +17,9 @@ class ScheduleSession extends Model
         'time',
         'room',
         'moderator',
-        'panelist'
+        'panelist',
+        'color',
+        'no_urut'
     ];
     
 

@@ -2,54 +2,30 @@
 
 namespace App\Livewire\Pages;
 
-use App\Models\atGlance as ModelsAtGlance;
 use App\Models\ScheduleSession;
 use App\Models\Time;
 use Livewire\Attributes\Title;
 use Livewire\Component;
 
 
-#[Title('Program at Glance - The 28th InaPRAS')]
+#[Title('Program at Glance - Burn 2025')]
 class AtGlance extends Component
 {
-    public $search;
-    public $category;
-    public $date;
+    public $atglances;
+    public $duaPuluh;
+    public $duaPuluhSatu;
+    public $duaPuluhDua;
 
-    public function resetDate()
+    public function mount()
     {
-        $this->date = null;
-    }
-    public function resetCategory()
-    {
-        $this->category = null;
+        $this->atglances = ScheduleSession::all();
+        $this->duaPuluh = $this->atglances->where('date', '2025-11-20')->sortBy('no_urut');
+        $this->duaPuluhSatu = $this->atglances->where('date', '2025-11-21')->sortBy('no_urut');
+        $this->duaPuluhDua = $this->atglances->where('date', '2025-11-22')->sortBy('no_urut');
     }
 
     public function render()
     {
-        $atglances = ScheduleSession::with('schedules')
-            ->where(function ($query) {
-                $query->where('title_ses', 'like', '%' . $this->search . '%')
-                    ->orWhere('room', 'like', '%' . $this->search . '%')
-                    ->orWhereHas('schedules', function ($query) {
-                        $query->where('topic_title', 'like', '%' . $this->search . '%')
-                            ->orWhere('speaker', 'like', '%' . $this->search . '%');
-                    });
-            })
-
-            ->when($this->category, function ($query, $category) {
-                return $query->where('category_sesi', $category);
-            })
-            ->when($this->date, function ($query, $date) {
-                return $query->where('date', $date);
-            })
-            ->get();
-        $uniqCategories = $atglances->pluck('category_sesi')->unique();
-        $uniqDates = $atglances->pluck('date')->unique();
-        return view('livewire.pages.at-glance', [
-            'atglances' => $atglances,
-            'uniqCategories' => $uniqCategories,
-            'uniqDates' => $uniqDates,
-        ]);
+        return view('livewire.pages.at-glance');
     }
 }
