@@ -20,11 +20,11 @@
                             <tr>
                                 <th colspan="3" class="text-center bg-base-200">WORKSHOPS</th>
                             </tr>
-                            <tr class="text-primary bg-base-200 text-xs">
+                            {{-- <tr class="text-primary bg-base-200 text-xs">
                                 <th style="width: 33%;" class="text-center">Empire 3</th>
                                 <th style="width: 33%;" class="text-center">Empire 4</th>
                                 <th style="width: 33%;" class="text-center">Pasteur Convention Center 3</th>
-                            </tr>
+                            </tr> --}}
                         </thead>
                         <tbody class="text-sm">
                             <tr>
@@ -251,11 +251,11 @@
                             <tr>
                                 <th colspan="3" class="text-center bg-base-200">CONFERENCE DAY 1</th>
                             </tr>
-                            <tr class="text-primary bg-base-200 text-xs">
+                            {{-- <tr class="text-primary bg-base-200 text-xs">
                                 <th style="width: 33%;" class="text-center">Pasteur Convention Center 1 & 2</th>
                                 <th style="width: 33%;" class="text-center">Pasteur Convention Center 3</th>
                                 <th style="width: 33%;" class="text-center">Empire 5</th>
-                            </tr>
+                            </tr> --}}
                         </thead>
                         <tbody class="text-sm">
                             <tr>
@@ -483,15 +483,15 @@
                             <tr>
                                 <th colspan="3" class="text-center bg-base-200">CONFERENCE DAY 2</th>
                             </tr>
-                            <tr class="text-primary bg-base-200 text-xs">
+                            {{-- <tr class="text-primary bg-base-200 text-xs">
                                 <th style="width: 33%;" class="text-center">Pasteur Convention Center 1 & 2</th>
                                 <th style="width: 33%;" class="text-center">Pasteur Convention Center 3</th>
                                 <th style="width: 33%;" class="text-center">Empire 5</th>
-                            </tr>
+                            </tr> --}}
                         </thead>
                         <tbody class="text-sm">
                             <tr>
-                                <td style="vertical-align: top">
+                                <td colspan="3" style="vertical-align: top">
                                     @foreach ($duaPuluhDua as $convention1)
                                     @if ($convention1->room == 'Pasteur Convention Center 1 & 2')
 
@@ -560,7 +560,7 @@
                                     </div>
                                     @endforeach
                                 </td>
-                                <td style="vertical-align: top">
+                                {{-- <td style="vertical-align: top">
                                     @foreach ($duaPuluhDua as $convention3)
                                     @if ($convention3->room == 'Pasteur Convention Center 3')
 
@@ -697,7 +697,7 @@
                                         </div>
                                     </div>
                                     @endforeach
-                                </td>
+                                </td> --}}
                             </tr>
 
                         </tbody>
