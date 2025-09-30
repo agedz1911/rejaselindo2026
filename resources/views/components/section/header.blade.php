@@ -1,5 +1,5 @@
 <!-- Header -->
-<header class="bg-gradient-to-r from-[#E2B124] via-[#FFCD03] to-[#E2B124] hidden lg:block text-white text-sm py-2">
+<header class="bg-gradient-to-r from-[#009341] via-[#e0e002] to-[#009341] hidden lg:block text-white text-sm py-2">
     <div class="mx-auto flex justify-between items-center px-4">
         <div>
             <span>
@@ -20,11 +20,11 @@
                 </i>
             </a>
             <a class="btn btn-sm shadow-none" href="https://wa.me/+6285179924961" target="_blankx`">
-                <i class="fab fa-whatsapp text-green-600">
+                <i class="fa fa-whatsapp text-green-600">
                 </i>
             </a>
             <a class="btn btn-sm shadow-none" href="#">
-                <i class="fab fa-instagram text-rose-400">
+                <i class="fa fa-instagram text-rose-400">
                 </i>
             </a>
         </div>
