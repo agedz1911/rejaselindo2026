@@ -224,7 +224,7 @@
         <div class=" mt-10">
             <div class="text-center lg:text-start">
                 <h2 class="mb-2 uppercase text-3xl font-semibold">Registration
-                    <span class="text-amber-400">information</span>
+                    <span class="text-violet-900">information</span>
                 </h2>
             </div>
 

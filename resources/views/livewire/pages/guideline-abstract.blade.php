@@ -11,9 +11,9 @@
             <div class="lg:w-2/3 w-full">
                 <div class="">
                     <div class="text-center md:text-start mb-5">
-                        <p class="mb-1 text-amber-400">Submission</p>
+                        <p class="mb-1 text-violet-900">Submission</p>
                         <h2 class="mb-0 uppercase text-4xl font-bold">Guideline for <span
-                                class="text-amber-400">Abstract</span></h2>
+                                class="text-violet-900">Abstract</span></h2>
                         <!-- <p>Abstract Free Paper</p> -->
                     </div>
 
@@ -32,7 +32,7 @@
                 <div class="p-10 bg-base-100 rounded-lg shadow-md ">
                     <div class="mb-4">
                         <h2 class="text-4xl font-semibold tracking-wide mb-2"> Online <span
-                                class="text-amber-400">Submission</span></h2>
+                                class="text-violet-900">Submission</span></h2>
                         <p class="m-0 text-xs text-gray-500 italic">*make sure the file complies with the guidelines.</p>
                     </div>
                     <div class="w-full flex text-center">

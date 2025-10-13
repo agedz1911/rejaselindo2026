@@ -10,8 +10,8 @@
         <!-- name of each tab group should be unique -->
         <div class="tabs tabs-border justify-evenly">
             <input type="radio" name="my_tabs_2" checked="checked"
-                class="tab uppercase tracking-wider text-primary hover:text-[#0059A8]"
-                aria-label="Thursday, 20 November 2025" />
+                class="tab uppercase tracking-wider text-primary hover:text-[#c01e8f]"
+                aria-label="Thursday, 2 April 2026" />
             <div class="tab-content">
                 <div class="overflow-x-auto  rounded-box border border-base-content/5 bg-base-100 border-gray-300">
                     <table class="table table-sm">
@@ -29,7 +29,7 @@
                         <tbody class="text-sm">
                             <tr>
                                 <td style="vertical-align: top">
-                                    @foreach ($duaPuluh as $empire3)
+                                    @foreach ($dua as $empire3)
                                     @if ($empire3->room == 'Empire 3')
 
                                     <a href="#modal_{{$empire3->id}}">
@@ -98,7 +98,7 @@
                                     @endforeach
                                 </td>
                                 <td style="vertical-align: top">
-                                    @foreach ($duaPuluh as $empire4)
+                                    @foreach ($dua as $empire4)
                                     @if ($empire4->room == 'Empire 4')
 
                                     <a href="#modal_{{$empire4->id}}">
@@ -167,7 +167,7 @@
                                     @endforeach
                                 </td>
                                 <td style="vertical-align: top">
-                                    @foreach ($duaPuluh as $convention3)
+                                    @foreach ($dua as $convention3)
                                     @if ($convention3->room == 'Pasteur Convention Center 3')
 
                                     <a href="#modal_{{$convention3->id}}">
@@ -241,8 +241,8 @@
                 </div>
             </div>
 
-            <input type="radio" name="my_tabs_2" class="tab uppercase tracking-wider text-primary hover:text-[#0059A8]"
-                aria-label="Friday, 21 November 2025" />
+            <input type="radio" name="my_tabs_2" class="tab uppercase tracking-wider text-primary hover:text-[#c01e8f]"
+                aria-label="Friday, 3 April 2026" />
             <div class="tab-content">
                 <div class="overflow-x-auto  rounded-box border border-base-content/5 bg-base-100 border-gray-300">
                     <table class="table table-sm">
@@ -260,7 +260,7 @@
                         <tbody class="text-sm">
                             <tr>
                                 <td style="vertical-align: top">
-                                    @foreach ($duaPuluhSatu as $convention1)
+                                    @foreach ($tiga as $convention1)
                                     @if ($convention1->room == 'Pasteur Convention Center 1 & 2')
 
                                     <a href="#modal_{{$convention1->id}}">
@@ -329,7 +329,7 @@
                                     @endforeach
                                 </td>
                                 <td style="vertical-align: top">
-                                    @foreach ($duaPuluhSatu as $convention3)
+                                    @foreach ($tiga as $convention3)
                                     @if ($convention3->room == 'Pasteur Convention Center 3')
 
                                     <a href="#modal_{{$convention3->id}}">
@@ -398,7 +398,7 @@
                                     @endforeach
                                 </td>
                                 <td style="vertical-align: top">
-                                    @foreach ($duaPuluhSatu as $empire5)
+                                    @foreach ($tiga as $empire5)
                                     @if ($empire5->room == 'Empire 5')
 
                                     <a href="#modal_{{$empire5->id}}">
@@ -473,8 +473,8 @@
                 </div>
             </div>
 
-            <input type="radio" name="my_tabs_2" class="tab uppercase tracking-wider text-primary hover:text-[#0059A8]"
-                aria-label="Saturday, 22 November  2025" />
+            <input type="radio" name="my_tabs_2" class="tab uppercase tracking-wider text-primary hover:text-[#c01e8f]"
+                aria-label="Saturday, 4 April 2026" />
             <div class="tab-content ">
                 <div class="overflow-x-auto  rounded-box border border-base-content/5 bg-base-100 border-gray-300">
                     <table class="table table-sm">
@@ -492,7 +492,7 @@
                         <tbody class="text-sm">
                             <tr>
                                 <td colspan="3" style="vertical-align: top">
-                                    @foreach ($duaPuluhDua as $convention1)
+                                    @foreach ($empat as $convention1)
                                     @if ($convention1->room == 'Pasteur Convention Center 1 & 2')
 
                                     <a href="#modal_{{$convention1->id}}">
@@ -561,7 +561,7 @@
                                     @endforeach
                                 </td>
                                 {{-- <td style="vertical-align: top">
-                                    @foreach ($duaPuluhDua as $convention3)
+                                    @foreach ($empat as $convention3)
                                     @if ($convention3->room == 'Pasteur Convention Center 3')
 
                                     <a href="#modal_{{$convention3->id}}">
@@ -630,7 +630,7 @@
                                     @endforeach
                                 </td>
                                 <td style="vertical-align: top">
-                                    @foreach ($duaPuluhDua as $empire5)
+                                    @foreach ($empat as $empire5)
                                     @if ($empire5->room == 'Empire 5')
 
                                     <a href="#modal_{{$empire5->id}}">
