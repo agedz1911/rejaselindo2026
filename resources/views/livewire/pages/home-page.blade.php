@@ -18,15 +18,16 @@
                 <p class="text-lg mb-2 lg:text-xl text-[#f4e6d0] font-bold">
                     13<sup>th</sup> Annual Meeting Indonesia Stem Cell Association (ASPI)
                 </p>
+                <p class="italic text-white text-sm mt-2">" Build Evidence of Medicinal Signaling Cell (MSC) through Tissue Engineering and Cell Therapy "</p>
 
-                <p class="text-slate-100 mt-4">
+                <p class="text-slate-100 mt-2">
                     April 2<sup>nd</sup> - 4<sup>th</sup>, 2026 <br> Bali Nusa Dua Convention Center, Bali, Indonesia</p>
                 <div class="mt-10">
                     <button
                         class=" text-white btn bg-fuchsia-600 border-none shadow-none hover:bg-fuchsia-900 rounded-lg p-6">Read
                         More <i class="fa-solid fa-angles-right text-xs"></i></button>
                     <a href="/registration" wire:navigate
-                        class="text-white btn btn-outline rounded-lg p-6 hover:bg-fuchsia-900 shadow-none"><i
+                        class="text-slate-100 btn btn-outline rounded-lg p-6 hover:bg-fuchsia-900 shadow-none"><i
                             class="fa-solid fa-pen-to-square text-xs"></i> Regiter Now </a>
                 </div>
             </div>
@@ -83,6 +84,8 @@
             <p class="text-lg text-[#273691] lg:text-xl mb-2 font-bold">
                 13<sup>th</sup> Annual Meeting Indonesia Stem Cell Association (ASPI)
             </p>
+            <p class="italic mt-2">" Build Evidence of Medicinal Signaling Cell (MSC) through Tissue Engineering and Cell Therapy "</p>
+
             <div class="flex flex-col md:flex-row lg:justify-start justify-center items-center gap-3 mt-8">
                 <div
                     class="z-10 hover:cursor-pointer max-w-sm p-6 bg-white border border-fuchsia-50 rounded-lg shadow-md hover:bg-fuchsia-100">
@@ -189,11 +192,11 @@
                 @foreach ($welcomeMessages as $welcomeMessage)
                 <div class="grid grid-cols-1 lg:grid-cols-2 justify-items-stretch">
                     <div class="order-2 lg:order-2 p-2">
-                        <div class="w-full justify-center lg:flex-row flex flex-col items-center gap-2">
-                            <div class="image-welcome">
+                        <div class="w-full justify-center lg:flex-row flex flex-col items-center lg:items-end gap-2">
+                            <div class="avatar">
                                 <img src="{{$welcomeMessage->image ? asset('storage/' . $welcomeMessage->image) : "
                                     assets/images/speaker.png"}}" alt="{{$welcomeMessage->name}}"
-                                    class="w-40 h-40 object-cover rounded">
+                                    class="w-full max-w-52 shadow-lg rounded-lg ">
                             </div>
                             <div class="p-4 rounded-lg bg-[#273691] w-full max-w-sm">
                                 <div class="ps-4 border-s border-white border-spacing-7">
