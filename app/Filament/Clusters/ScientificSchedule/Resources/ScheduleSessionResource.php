@@ -51,11 +51,11 @@ class ScheduleSessionResource extends Resource
                 TextInput::make('time'),
                 Select::make('room')
                     ->options([
-                        'Pasteur Convention Center 1 & 2' => 'Pasteur Convention Center 1 & 2',
-                        'Pasteur Convention Center 3' => 'Pasteur Convention Center 3',
-                        'Empire 3' => 'Empire 3',
-                        'Empire 4' => 'Empire 4',
-                        'Empire 5' => 'Empire 5',
+                        'Room 1' => 'Room 1',
+                        'Room 2' => 'Room 2',
+                        'Room 3' => 'Room 3',
+                        'Room 4' => 'Room 4',
+                        'Room 5' => 'Room 5',
                     ])
                     ->searchable()
                     ->required()

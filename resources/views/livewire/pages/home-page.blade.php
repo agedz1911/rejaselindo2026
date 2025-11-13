@@ -18,9 +18,9 @@
                 <p class="text-lg mb-2 lg:text-xl text-[#f4e6d0] font-bold">
                     13<sup>th</sup> Annual Meeting Indonesia Stem Cell Association (ASPI)
                 </p>
-                <p class="italic text-white text-sm mt-2">" Build Evidence of Medicinal Signaling Cell (MSC) through Tissue Engineering and Cell Therapy "</p>
+                <p class="italic font-semibold text-white text-lg mt-2">" Build Evidence of Medicinal Signaling Cell (MSC) through Tissue Engineering and Cell Therapy "</p>
 
-                <p class="text-slate-100 mt-2">
+                <p class="text-slate-100 text-sm mt-2">
                     April 2<sup>nd</sup> - 4<sup>th</sup>, 2026 <br> Bali Nusa Dua Convention Center, Bali, Indonesia</p>
                 <div class="mt-10">
                     <button

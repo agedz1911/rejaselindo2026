@@ -58,7 +58,7 @@
                     <li class="text-sm font-normal hover:text-[#A93E89] hover:underline"><a href="#" wire:navigate>Submission</a></li>
                     <li class="text-sm font-normal hover:text-[#A93E89] hover:underline"><a href="/organizing-committee" wire:navigate>Committee</a></li>
                     <li class="text-sm font-normal hover:text-[#A93E89] hover:underline"><a wire:navigate href="#">Faculties</a></li>
-                    <li class="text-sm font-normal hover:text-[#A93E89] hover:underline"><a wire:navigate href="#">Schedule</a></li>
+                    <li class="text-sm font-normal hover:text-[#A93E89] hover:underline"><a wire:navigate href="/program-at-glance">Schedule</a></li>
                     <li class="text-sm font-normal hover:text-[#A93E89] hover:underline"><a wire:navigate href="#">Registration</a></li>
                     <li class="text-sm font-normal hover:text-[#A93E89] hover:underline"><a wire:navigate href="/visiting">Venue</a></li>
                 </ul>

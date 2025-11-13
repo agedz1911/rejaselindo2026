@@ -8,26 +8,29 @@
     </section>
 
     <section class="mx-auto w-full px-5 pt-16 pb-28 bg-competition">
-        <div class="flex flex-wrap gap-4 justify-evenly">
-            @foreach ($uniqueCategories as $category)
-            <div class="card shadow-sm w-full max-w-md">
+        @foreach ($uniqueCategories as $category)
+        <h2 class="text-center text-xl lg:text-2xl font-bold mb-5 uppercase text-[#c01e8f]">{{$category}}</h2>
+        <div class="flex flex-wrap gap-4 justify-center mb-12">
+            @foreach ($committees as $committee)
+            @if ($committee->category == $category)
+            <div class="card w-full max-w-xs bg-base-100 card-md shadow-sm">
+                <figure>
+                    <img src="{{$committee->image ? asset('storage/' . $committee->image) : " assets/images/speaker.png"}}"
+                        alt="{{$committee->name}}" alt="{{$committee->name}}" />
+                </figure>
                 <div class="card-body">
-                    <h2 class="card-title uppercase text-[#c01e8f]">{{$category}}</h2>
-                    @foreach ($committees as $committee)
-                    @if ($committee->category == $category)
-                    <ul class= "list-disc list-inside">
-                        <li class="mb-2 text-gray-500">{{ $committee->name }}
-                            @if ($committee->title != null)
-                            <br>
-                            <span class="font-semibold ml-3">({{ $committee->title }})</span>
-                            @endif
-                        </li>
-                    </ul>
-                    @endif
-                    @endforeach
+                    <h2 class="card-title">{{ $committee->name }}</h2>
+                    <p>@if ($committee->title != null)
+                        <br>
+                        <span class="font-semibold ml-3">({{ $committee->title }})</span>
+                        @endif
+                    </p>
+
                 </div>
             </div>
+            @endif
             @endforeach
         </div>
+        @endforeach
     </section>
 </div>

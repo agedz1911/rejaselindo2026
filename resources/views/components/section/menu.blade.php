@@ -28,7 +28,7 @@
             Scientific Program <i class="fa-solid fa-angle-down"></i></div>
         <ul tabindex="0" class="dropdown-content menu bg-base-100 rounded-box gap-2 w-60 p-2 shadow-sm">
             <li>
-                <a href="#" wire:navigate
+                <a href="/program-at-glance" wire:navigate
                     class="{{ request()->is('program-at-glance') ? 'text-[#c01e8f]' : '' }} justify-between hover:text-violet-900">Program
                     at Glance <i class="fa-solid fa-angle-right"></i></a>
             </li>
