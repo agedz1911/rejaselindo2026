@@ -41,7 +41,7 @@
 
 
     <li>
-        <a href="#" wire:navigate
+        <a href="/registration" wire:navigate
             class="{{ request()->is('registration') ? 'text-[#c01e8f]' : 'text-white' }} hover:text-violet-700 hover:underline">Registration
         </a>
     </li>

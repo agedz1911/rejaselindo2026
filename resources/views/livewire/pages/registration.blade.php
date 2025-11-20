@@ -20,22 +20,22 @@
                     <h2 class="uppercase font-semibold text-[#0059A8] mb-2 mt-5">{{$category}}</h2>
                     <div class="relative overflow-x-auto shadow sm:rounded-lg ">
                         <table class="w-full text-sm text-left rtl:text-right text-gray-500 ">
-                            <thead class=" text-white uppercase text-center bg-sky-900 ">
+                            <thead class=" text-white uppercase text-center bg-fuchsia-700 ">
                                 <tr>
                                     <th scope="col" class="px-6 py-3">
                                         Category
                                     </th>
                                     <th scope="col" class="px-6 py-3">
                                         Early Bird Registration <br>
-                                        up to 5 Sep 2025
+                                        up to 13 Feb 2026
                                     </th>
                                     <th scope="col" class="px-6 py-3">
-                                        Late Registration <br>
-                                        After 5 Sep up to 18 Nov 2025
+                                        Late / Onsite Registration <br>
+                                        After 13 Feb 2026
                                     </th>
-                                    <th scope="col" class="px-6 py-3">
+                                    {{-- <th scope="col" class="px-6 py-3">
                                         Onsite Registration
-                                    </th>
+                                    </th> --}}
 
                                 </tr>
                             </thead>
@@ -54,18 +54,18 @@
                                         IDR {{$regLocal->normal_reg != 0 ? number_format($regLocal->normal_reg, 0, ',',
                                         '.') : 'Free'}}
                                     </td>
-                                    <td class="px-6 py-4 text-center">
+                                    {{-- <td class="px-6 py-4 text-center">
                                         IDR {{$regLocal->onsite_reg != 0 ? number_format($regLocal->onsite_reg, 0, ',',
                                         '.'): 'Free'}}
-                                    </td>
+                                    </td> --}}
                                 </tr>
                                 @endif
                                 @endforeach
                             </tbody>
                         </table>
                         <div class="relative mt-2">
-                            <a href="https://expo.virconex-id.com/registration/burn2025/"
-                                class="bg-amber-500 text-white hover:bg-sky-800 p-3 rounded-xl mb-3 float-end"><i
+                            <a href="https://expo.virconex-id.com/registration/rejaselindo2026"
+                                class="bg-[#A93E89] text-white hover:bg-sky-800 p-3 rounded-xl mb-3 float-end"><i
                                     class="fa-solid fa-list mx-3"></i>Register Now!</a>
                         </div>
                     </div>
@@ -101,8 +101,8 @@
                             </tbody>
                         </table>
                         <div class="relative mt-2">
-                            <a href="https://expo.virconex-id.com/registration/burn2025/"
-                                class="bg-amber-500 text-white hover:bg-sky-800 p-3 rounded-xl mb-3 float-end"><i
+                            <a href="https://expo.virconex-id.com/registration/rejaselindo2026"
+                                class="bg-[#A93E89] text-white hover:bg-sky-800 p-3 rounded-xl mb-3 float-end"><i
                                     class="fa-solid fa-list mx-3"></i>Register Now!</a>
                         </div>
                     </div>
@@ -146,8 +146,8 @@
                             </tbody>
                         </table>
                         <div class="relative mt-2">
-                            <a href="https://expo.virconex-id.com/registration/burn2025/"
-                                class="bg-amber-500 text-white hover:bg-sky-800 p-3 rounded-xl mb-3 float-end"><i
+                            <a href="https://expo.virconex-id.com/registration/rejaselindo2026"
+                                class="bg-[#A93E89] text-white hover:bg-sky-800 p-3 rounded-xl mb-3 float-end"><i
                                     class="fa-solid fa-list mx-3"></i>Register Now!</a>
                         </div>
                     </div>
@@ -167,22 +167,22 @@
                     <h2 class="uppercase font-semibold text-purple-900 mb-2 mt-5">{{$category}}</h2>
                     <div class="relative overflow-x-auto shadow sm:rounded-lg">
                         <table class="w-full text-sm text-left rtl:text-right text-gray-500 ">
-                            <thead class=" text-white uppercase text-center bg-purple-900 ">
+                            <thead class=" text-white uppercase text-center bg-sky-800 ">
                                 <tr>
                                     <th scope="col" class="px-6 py-3">
                                         Category
                                     </th>
                                     <th scope="col" class="px-6 py-3">
                                         Early Bird Registration <br>
-                                        up to 5 Sep 2025
+                                        up to 13 Feb 2026
                                     </th>
                                     <th scope="col" class="px-6 py-3">
-                                        Late Registration <br>
-                                        After 5 Sep up to 18 Nov 2025
+                                        Late / Onsite Registration <br>
+                                        After 13 Feb 2026
                                     </th>
-                                    <th scope="col" class="px-6 py-3">
+                                    {{-- <th scope="col" class="px-6 py-3">
                                         Onsite Registration
-                                    </th>
+                                    </th> --}}
 
                                 </tr>
                             </thead>
@@ -200,17 +200,17 @@
                                     <td class="px-6 py-4 text-center">
                                         USD {{$regForeign->normal_reg != 0 ? $regForeign->normal_reg : 'Free'}}
                                     </td>
-                                    <td class="px-6 py-4 text-center">
+                                    {{-- <td class="px-6 py-4 text-center">
                                         USD {{$regForeign->onsite_reg != 0 ? $regForeign->onsite_reg : 'Free'}}
-                                    </td>
+                                    </td> --}}
                                 </tr>
                                 @endif
                                 @endforeach
                             </tbody>
                         </table>
                         <div class="relative mt-2">
-                            <a href="https://expo.virconex-id.com/registration/burn2025/"
-                                class="bg-amber-500 text-white hover:bg-sky-800 p-3 rounded-xl mb-3 float-end"><i
+                            <a href="https://expo.virconex-id.com/registration/rejaselindo2026"
+                                class="bg-[#A93E89] text-white hover:bg-sky-800 p-3 rounded-xl mb-3 float-end"><i
                                     class="fa-solid fa-list mx-3"></i>Register Now!</a>
                         </div>
                     </div>
