@@ -5,10 +5,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>{{ $title ?? 'BURN 2025' }}</title>
+    <title>{{ $title ?? 'REJASELINDO 2026' }}</title>
     <meta name="description"
-        content="Indonesian Burn & wound care meeting in conjuntion with 7th updates in plastic surgery " />
-    <meta name="keywords" content="plastic surgery, burn, wound care, aesthetic, reconstructive, beauty, aesthetic education," />
+        content="6th Annual meeting Indonesia Association of Tissue Engineering & Cell Therapy (REJASELINDO), 20th International Conference Asia Pacific Association of Surgical Tissue Bank (APASTB)" />
+    <meta name="keywords" content="Tissue Bank, Surgical Tissue Bank, Indonesia Stem Cell Association, Stem Cell" />
     <meta name="author" content="AV-PRO" />
 
     <!-- Custom CSS -->
