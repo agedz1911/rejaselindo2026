@@ -10,6 +10,7 @@ use App\Livewire\Pages\HomePage;
 use App\Livewire\Pages\Registration;
 use App\Livewire\Pages\Schedule;
 use App\Livewire\Pages\Visiting;
+use App\Livewire\Section\Competition;
 use App\Livewire\Section\Sponsor;
 use Illuminate\Support\Facades\Route;
 
@@ -28,3 +29,4 @@ Route::get('/faculties', Faculty::class);
 Route::get('/accommodation', Accommodation::class);
 Route::get('/sponsors', Sponsor::class);
 Route::get('/visiting', Visiting::class);
+Route::get('/welcome-messages', Competition::class);

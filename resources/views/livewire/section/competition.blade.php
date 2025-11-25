@@ -1,38 +1,86 @@
-<div>
-    <section class="bg-competition bg-gray-50 py-24 ">
-        <div class="">
-            <div class= "m-auto text-center pb-7">
-                <p class="mb-1 font-semibold tracking-wide">28<sup>th</sup> InaPRAS</p>
-                <h2 class="text-amber-500 text-4xl font-semibold uppercase tracking-wide mb-1">submission</h2>
-                <p class="m-0 text-gray-500">Submit abstract the 28<sup>th</sup> InaPRAS Scientific Competition</p>
-                </p>
-            </div>
-            <div class="flex flex-wrap justify-evenly p-5">
-                <div class="w-full max-w-md">
-                    <div class="border border-gray-200 rounded-xl shadow-md text-center pt-4 pb-6">
-                        <h5 class="p-4  uppercase font-semibold tracking-wide text-xl hover:text-amber-500 hover:cursor-pointer">abstract Free paper</h5>
-                        <a href="/submission" wire:navigate class="text-purple-700 hover:text-amber-500">Read More <i
-                        class="fa-solid fa-angles-right"></i></a>
-                        <div class="p-5 pt-0 m-0 border-b border-gray-300"></div>
-                        <div class="pt-5 tracking-wide">
-                            <span class="px-5 border-gray-300 border-e ">April 14, 2025 </span><span class="px-4">Deadline Submission </span>
+<div class="w-full">
+    <section class="breadcrumbs relative pb-0">
+        <div class="absolute inset-0 bg-gradient-to-b from-[#0059A8]/10 to-[#0059A8]/80"></div>
+        <div class="py-16 lg:py-28 text-center relative">
+            <h2 class="text-white uppercase text-2xl font-semibold tracking-wide lg:text-4xl">Welcome Messages</h2>
+        </div>
+    </section>
+    <section class="bg-gradient-to-b from-[#273691] to-[#A93E89] relative z-0 py-28">
+        <div class="mb-6 px-4">
+
+            @foreach ($welcomeMessages as $welcomeMessage)
+            @if ($loop->even)
+            <div class="card shadow-lg bg-transparent border border-white border-opacity-25 w-full mb-5">
+                <div class="card-body">
+                    <div class="grid grid-cols-1 lg:grid-cols-2 justify-items-stretch">
+                        <div class="order-2 lg:order-1 p-2">
+                            <div
+                                class="w-full justify-center lg:flex-row flex flex-col items-center lg:items-end gap-2">
+                                <div class="avatar">
+                                    <img src="{{$welcomeMessage->image ? asset('storage/' . $welcomeMessage->image) : "
+                                            assets/images/speaker.png"}}" alt="{{$welcomeMessage->name}}"
+                                        class="w-full max-w-52 shadow-lg rounded-lg ">
+                                </div>
+                                <div class="p-4 rounded-lg bg-[#273691] w-full max-w-sm">
+                                    <div class="ps-4 border-s border-white border-spacing-7">
+                                        <p class="text-white text-xs italic">" {{$welcomeMessage->title}}
+                                            "</p>
+                                        <h6 class="font-semibold text-white">{{$welcomeMessage->name}}</h6>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="order-1 lg:order-2 p-2 ">
+                            <div class="flex flex-col ">
+                                <div class="pr-2">
+                                    <div class="pb-4  text-justify flex flex-col gap-2 text-gray-300">
+                                        {!! str($welcomeMessage->description)->markdown()->sanitizeHtml() !!}
+                                        
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="w-full max-w-md">
-                    <div class="border border-gray-200 rounded-xl shadow-md text-center pt-4 pb-7">
-                        <h5 class="p-4  uppercase font-semibold tracking-wide text-xl hover:text-amber-500 hover:cursor-pointer">Abstract E-Poster</h5>
-                        <a href="/submission" wire:navigate class="text-purple-700 hover:text-amber-500">Read More <i
-                        class="fa-solid fa-angles-right"></i></a>
-                        <div class="p-5 pt-0 m-0 border-b border-gray-300"></div>
-                        <div class="pt-5 text-gray-500 tracking-wide">
-                            <span class="px-5 border-gray-300 border-e ">April 14, 2025 </span><span class="px-4">Deadline Submission </span>
+            </div>
+            @else
+            <div class="card shadow-lg bg-transparent border border-white border-opacity-25 w-full mb-5">
+                <div class="card-body">
+                    <div class="grid grid-cols-1 lg:grid-cols-2 justify-items-stretch">
+                        <div class="order-2 lg:order-2 p-2">
+                            <div
+                                class="w-full justify-center lg:flex-row flex flex-col items-center lg:items-end gap-2">
+                                <div class="avatar">
+                                    <img src="{{$welcomeMessage->image ? asset('storage/' . $welcomeMessage->image) : "
+                                            assets/images/speaker.png"}}" alt="{{$welcomeMessage->name}}"
+                                        class="w-full max-w-52 shadow-lg rounded-lg ">
+                                </div>
+                                <div class="p-4 rounded-lg bg-[#273691] w-full max-w-sm">
+                                    <div class="ps-4 border-s border-white border-spacing-7">
+                                        <p class="text-white text-xs italic">" {{$welcomeMessage->title}}
+                                            "</p>
+                                        <h6 class="font-semibold text-white">{{$welcomeMessage->name}}</h6>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="order-1 lg:order-1 p-2 ">
+                            <div class="flex flex-col ">
+                                <div class="pr-2">
+                                    <div class="pb-4  text-justify flex flex-col gap-2 text-gray-300">
+                                        {!! str($welcomeMessage->description)->markdown()->sanitizeHtml() !!}
+                                        
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                
             </div>
-            
+            @endif
+            @endforeach
         </div>
     </section>
 </div>

@@ -6,9 +6,13 @@
     </li>
     <div class="dropdown dropdown-hover">
         <div tabindex="0"
-            class="{{ request()->is('organizing-committee') || request()->is('faculties') ? 'text-[#c01e8f]' : 'text-white' }} hover:cursor-pointer hover:text-violet-700">
+            class="{{ request()->is('organizing-committee') || request()->is('faculties') || request()->is('welcome-messages') ? 'text-[#c01e8f]' : 'text-white' }} hover:cursor-pointer hover:text-violet-700">
             Congress Information <i class="fa-solid fa-angle-down"></i></div>
         <ul tabindex="0" class="dropdown-content menu bg-base-100 rounded-box gap-2 w-60 p-2 shadow-sm">
+            <li>
+                <a href="/welcome-messages" wire:navigate
+                    class="{{ request()->is('welcome-messages') ? 'text-[#c01e8f]' : '' }} justify-between hover:text-violet-900 ">Welcome Messages <i class="fa-solid fa-angle-right"></i></a>
+            </li>
             <li>
                 <a href="/organizing-committee" wire:navigate
                     class="{{ request()->is('organizing-committee') ? 'text-[#c01e8f]' : '' }} justify-between hover:text-violet-900 ">Organizing

@@ -8,9 +8,11 @@
             </div>
             <div class="px-5 order-1 w-full lg:w-1/2">
                 <img src="assets/images/logo/logo-04.png" alt="Icon" class="max-w-xl w-full mb-5">
-                <p class="text-lg mb-2 lg:text-xl text-[#f4e6d0] font-bold">6<sup>th</sup> Annual meeting Indonesia Association of Tissue Engineering & Cell Therapy (REJASELINDO),</p>
+                <p class="text-lg mb-2 lg:text-xl text-[#f4e6d0] font-bold">6<sup>th</sup> Annual meeting Indonesia
+                    Association of Tissue Engineering & Cell Therapy (REJASELINDO),</p>
                 <p class="text-lg mb-2 lg:text-xl text-[#f4e6d0] font-bold">
-                    20<sup>th</sup> International Conference Asia Pacific Association of Surgical Tissue Bank (APASTB) <br> <span class="italic text-sm"> in conjunction with </span><br>
+                    20<sup>th</sup> International Conference Asia Pacific Association of Surgical Tissue Bank (APASTB)
+                    <br> <span class="italic text-sm"> in conjunction with </span><br>
                 </p>
                 <p class="text-lg mb-2 lg:text-xl text-[#f4e6d0] font-bold">
                     9<sup>th</sup> Annual Meeting Indonesia Tissue Bank Association (PERBAJI),
@@ -18,10 +20,12 @@
                 <p class="text-lg mb-2 lg:text-xl text-[#f4e6d0] font-bold">
                     13<sup>th</sup> Annual Meeting Indonesia Stem Cell Association (ASPI)
                 </p>
-                <p class="italic font-semibold text-white text-lg mt-2">" Build Evidence of Medicinal Signaling Cell (MSC) through Tissue Engineering and Cell Therapy "</p>
+                <p class="italic font-semibold text-white text-lg mt-2">" Build Evidence of Medicinal Signaling Cell
+                    (MSC) through Tissue Engineering and Cell Therapy "</p>
 
                 <p class="text-slate-100 text-sm mt-2">
-                    April 2<sup>nd</sup> - 4<sup>th</sup>, 2026 <br> Bali Nusa Dua Convention Center, Bali, Indonesia</p>
+                    April 2<sup>nd</sup> - 4<sup>th</sup>, 2026 <br> Bali Nusa Dua Convention Center, Bali, Indonesia
+                </p>
                 <div class="mt-10">
                     <button
                         class=" text-white btn bg-fuchsia-600 border-none shadow-none hover:bg-fuchsia-900 rounded-lg p-6">Read
@@ -72,11 +76,13 @@
     <section
         class="lg:py-16 py-20 lg:mt-10 grid grid-cols-1 lg:grid-cols-2 px-3 lg:px-8 gap-3 border-b border-dashed border-gray-300">
         <div class="">
-            <img src="assets/images/logo/logo-04.png" class="w-full max-w-lg rounded-lg hover:scale-105 transition-all duration-500"
-                alt="">
-            <p class="text-lg text-[#273691] lg:text-xl mb-2 font-bold">6<sup>th</sup> Annual meeting Indonesia Association of Tissue Engineering & Cell Therapy (REJASELINDO),</p>
+            <img src="assets/images/logo/logo-04.png"
+                class="w-full max-w-lg rounded-lg hover:scale-105 transition-all duration-500" alt="">
+            <p class="text-lg text-[#273691] lg:text-xl mb-2 font-bold">6<sup>th</sup> Annual meeting Indonesia
+                Association of Tissue Engineering & Cell Therapy (REJASELINDO),</p>
             <p class="text-lg text-[#273691] lg:text-xl mb-2 font-bold">
-                20<sup>th</sup> International Conference Asia Pacific Association of Surgical Tissue Bank (APASTB) <br> <span class="italic text-[#0E58A8] text-sm"> in conjunction with </span><br>
+                20<sup>th</sup> International Conference Asia Pacific Association of Surgical Tissue Bank (APASTB) <br>
+                <span class="italic text-[#0E58A8] text-sm"> in conjunction with </span><br>
             </p>
             <p class="text-lg text-[#273691] lg:text-xl mb-2 font-bold">
                 9<sup>th</sup> Annual Meeting Indonesia Tissue Bank Association (PERBAJI),
@@ -84,7 +90,8 @@
             <p class="text-lg text-[#273691] lg:text-xl mb-2 font-bold">
                 13<sup>th</sup> Annual Meeting Indonesia Stem Cell Association (ASPI)
             </p>
-            <p class="italic mt-2">" Build Evidence of Medicinal Signaling Cell (MSC) through Tissue Engineering and Cell Therapy "</p>
+            <p class="italic mt-2">" Build Evidence of Medicinal Signaling Cell (MSC) through Tissue Engineering and
+                Cell Therapy "</p>
 
             <div class="flex flex-col md:flex-row lg:justify-start justify-center items-center gap-3 mt-8">
                 <div
@@ -132,8 +139,7 @@
                 </div>
             </div>
             <div class="rounded-xl bg-white shadow-lg">
-                <img src="assets/images/bali/4.jpg" class="w-full rounded-xl object-cover h-full sepia-50"
-                    alt="bali 3">
+                <img src="assets/images/bali/4.jpg" class="w-full rounded-xl object-cover h-full sepia-50" alt="bali 3">
             </div>
         </div>
     </section>
@@ -188,48 +194,94 @@
                     </div>
                 </div>
             </div>
-            <div class="mt-10 mb-6">
+            <div class="mt-10 mb-6 px-4">
+                <h2 class="text-4xl text-center mb-5 text-white font-semibold uppercase">Welcome <span
+                        class="text-[#f4e6d0]">message
+                    </span></h2>
                 @foreach ($welcomeMessages as $welcomeMessage)
-                <div class="grid grid-cols-1 lg:grid-cols-2 justify-items-stretch">
-                    <div class="order-2 lg:order-2 p-2">
-                        <div class="w-full justify-center lg:flex-row flex flex-col items-center lg:items-end gap-2">
-                            <div class="avatar">
-                                <img src="{{$welcomeMessage->image ? asset('storage/' . $welcomeMessage->image) : "
-                                    assets/images/speaker.png"}}" alt="{{$welcomeMessage->name}}"
-                                    class="w-full max-w-52 shadow-lg rounded-lg ">
+                @if ($loop->even)
+                <div class="card shadow-lg bg-transparent border border-white border-opacity-25 w-full mb-5">
+                    <div class="card-body">
+                        <div class="grid grid-cols-1 lg:grid-cols-2 justify-items-stretch">
+                            <div class="order-2 lg:order-1 p-2">
+                                <div
+                                    class="w-full justify-center lg:flex-row flex flex-col items-center lg:items-end gap-2">
+                                    <div class="avatar">
+                                        <img src="{{$welcomeMessage->image ? asset('storage/' . $welcomeMessage->image) : "
+                                            assets/images/speaker.png"}}" alt="{{$welcomeMessage->name}}"
+                                            class="w-full max-w-52 shadow-lg rounded-lg ">
+                                    </div>
+                                    <div class="p-4 rounded-lg bg-[#273691] w-full max-w-sm">
+                                        <div class="ps-4 border-s border-white border-spacing-7">
+                                            <p class="text-white text-xs italic">" {{$welcomeMessage->title}}
+                                                "</p>
+                                            <h6 class="font-semibold text-white">{{$welcomeMessage->name}}</h6>
+                                        </div>
+                                    </div>
+                                </div>
+
                             </div>
-                            <div class="p-4 rounded-lg bg-[#273691] w-full max-w-sm">
-                                <div class="ps-4 border-s border-white border-spacing-7">
-                                    <p class="text-white text-xs italic">" {{$welcomeMessage->title}}
-                                        "</p>
-                                    <h6 class="font-semibold text-white">{{$welcomeMessage->name}}</h6>
+                            <div class="order-1 lg:order-2 p-2 ">
+                                <div class="flex flex-col ">
+                                    <div class="pr-2">
+                                        <div class="pb-4  text-justify flex flex-col gap-2 text-gray-300">
+                                            <div class="line-clamp-6">
+                                                {!! str($welcomeMessage->description)->markdown()->sanitizeHtml() !!}
+                                            </div>
+                                            <a class="hover:underline hover:text-primary" href="/welcome-messages" wire:navigate>Read More...</a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-
                     </div>
-                    <div class="order-1 lg:order-1 p-2 ">
-                        <div class="flex flex-col ">
-                            <h2 class="text-4xl text-white font-semibold uppercase">Welcome <span
-                                    class="text-[#f4e6d0]">message </span></h2>
-
-                            <div class="pr-2">
-                                <div class="pb-4 text-justify flex flex-col gap-2 text-gray-300">
-
-                                    {!! str($welcomeMessage->description)->markdown()->sanitizeHtml() !!}
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
                 </div>
+                @else
+                <div class="card shadow-lg bg-transparent border border-white border-opacity-25 w-full mb-5">
+                    <div class="card-body">
+                        <div class="grid grid-cols-1 lg:grid-cols-2 justify-items-stretch">
+                            <div class="order-2 lg:order-2 p-2">
+                                <div
+                                    class="w-full justify-center lg:flex-row flex flex-col items-center lg:items-end gap-2">
+                                    <div class="avatar">
+                                        <img src="{{$welcomeMessage->image ? asset('storage/' . $welcomeMessage->image) : "
+                                            assets/images/speaker.png"}}" alt="{{$welcomeMessage->name}}"
+                                            class="w-full max-w-52 shadow-lg rounded-lg ">
+                                    </div>
+                                    <div class="p-4 rounded-lg bg-[#273691] w-full max-w-sm">
+                                        <div class="ps-4 border-s border-white border-spacing-7">
+                                            <p class="text-white text-xs italic">" {{$welcomeMessage->title}}
+                                                "</p>
+                                            <h6 class="font-semibold text-white">{{$welcomeMessage->name}}</h6>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="order-1 lg:order-1 p-2 ">
+                                <div class="flex flex-col ">
+                                    <div class="pr-2">
+                                        <div class="pb-4  text-justify flex flex-col gap-2 text-gray-300">
+                                            <div class="line-clamp-6">
+                                                {!! str($welcomeMessage->description)->markdown()->sanitizeHtml() !!}
+                                            </div>
+                                            <a class="hover:underline hover:text-primary" href="/welcome-messages" wire:navigate>Read More...</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                @endif
                 @endforeach
+            </div>
+            <div class="flex justify-center">
+                <a href="/welcome-messages" wire:navigate class="btn btn-primary rounded-lg">Read All Welcome Message <i class="fa fa-angles-right"></i></a>
             </div>
         </div>
     </section>
 
-    <!-- <livewire:section.competition /> -->
 
     <section class="w-full pt-24 pb-3 px-2 lg:px-4">
         <div class="text-center mb-5 pb-10">
