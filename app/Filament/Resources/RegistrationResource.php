@@ -32,8 +32,7 @@ class RegistrationResource extends Resource
                 Select::make('category_reg')
                     ->options([
                         'Symposium' => 'Symposium',
-                        'AESTHETIC WORKSHOP PLASTIC SURGEON & PLASTIC SURGERY RESIDENT' => 'AESTHETIC WORKSHOP PLASTIC SURGEON & PLASTIC SURGERY RESIDENT',
-                        'GENERAL WORKSHOP' => 'GENERAL WORKSHOP',
+                        'Workshop' => 'Workshop',
                     ])
                     ->native(false),
                 Select::make('wilayah_reg')

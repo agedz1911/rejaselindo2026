@@ -20,7 +20,7 @@
                     <h2 class="uppercase font-semibold text-[#0059A8] mb-2 mt-5">{{$category}}</h2>
                     <div class="relative overflow-x-auto shadow sm:rounded-lg ">
                         <table class="w-full text-sm text-left rtl:text-right text-gray-500 ">
-                            <thead class=" text-white uppercase text-center bg-fuchsia-700 ">
+                            <thead class=" text-white uppercase text-center bg-violet-700 ">
                                 <tr>
                                     <th scope="col" class="px-6 py-3">
                                         Category
@@ -69,17 +69,22 @@
                                     class="fa-solid fa-list mx-3"></i>Register Now!</a>
                         </div>
                     </div>
-                    @elseif ($category == 'AESTHETIC WORKSHOP PLASTIC SURGEON & PLASTIC SURGERY RESIDENT')
+                    @elseif ($category == 'Workshop')
                     <h2 class="uppercase font-semibold text-[#0059A8] mb-2 mt-5">{{$category}}</h2>
                     <div class="relative overflow-x-auto shadow sm:rounded-lg ">
                         <table class="w-full text-sm text-left rtl:text-right text-gray-500 ">
-                            <thead class=" text-white uppercase text-center bg-sky-900 ">
+                            <thead class=" text-white uppercase text-center bg-violet-800 ">
                                 <tr>
                                     <th scope="col" class="px-6 py-3">
                                         Category
                                     </th>
                                     <th scope="col" class="px-6 py-3">
-                                        Registration Fee
+                                        Early Bird Registration <br>
+                                        up to 13 Feb 2026
+                                    </th>
+                                    <th scope="col" class="px-6 py-3">
+                                        Late / Onsite Registration <br>
+                                        After 13 Feb 2026
                                     </th>
                                 </tr>
                             </thead>
@@ -93,6 +98,10 @@
                                     <td class="px-6 py-4 text-center">
                                         {{$regLocal->early_bird_reg != 0 ? 'IDR ' .
                                         number_format($regLocal->early_bird_reg, 0, ',', '.') : ''}}
+                                    </td>
+                                    <td class="px-6 py-4 text-center">
+                                        {{$regLocal->early_bird_reg != 0 ? 'IDR ' .
+                                        number_format($regLocal->normal_reg, 0, ',', '.') : ''}}
                                     </td>
 
                                 </tr>
@@ -121,7 +130,7 @@
                                     <th scope="col" class="px-6 py-3">
                                         Nurse / Medical Students
                                     </th>
-                                    
+
                                 </tr>
                             </thead>
                             <tbody>
@@ -132,14 +141,14 @@
                                         {{$regLocal->title}}
                                     </th>
                                     <td class="px-6 py-4 text-center">
-                                         {{$regLocal->early_bird_reg != 0 ? 'IDR ' . number_format($regLocal->early_bird_reg,
+                                        {{$regLocal->early_bird_reg != 0 ? 'IDR ' . number_format($regLocal->early_bird_reg,
                                         0, ',', '.') : ''}}
                                     </td>
                                     <td class="px-6 py-4 text-center">
-                                         {{$regLocal->normal_reg != 0 ? 'IDR' . number_format($regLocal->normal_reg, 0, ',',
+                                        {{$regLocal->normal_reg != 0 ? 'IDR' . number_format($regLocal->normal_reg, 0, ',',
                                         '.') : ''}}
                                     </td>
-                                    
+
                                 </tr>
                                 @endif
                                 @endforeach
