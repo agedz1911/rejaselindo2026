@@ -33,6 +33,7 @@ class RegistrationResource extends Resource
                     ->options([
                         'Symposium' => 'Symposium',
                         'Workshop' => 'Workshop',
+                        'Package Symposium & Workshop' => 'Package Symposium & Workshop',
                     ])
                     ->native(false),
                 Select::make('wilayah_reg')
