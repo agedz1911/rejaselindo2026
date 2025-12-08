@@ -69,7 +69,7 @@
                                     class="fa-solid fa-list mx-3"></i>Register Now!</a>
                         </div>
                     </div>
-                    @elseif ($category == 'Workshop')
+                    @elseif ($category == 'Package Symposium & Workshop')
                     <h2 class="uppercase font-semibold text-[#0059A8] mb-2 mt-5">{{$category}}</h2>
                     <div class="relative overflow-x-auto shadow sm:rounded-lg ">
                         <table class="w-full text-sm text-left rtl:text-right text-gray-500 ">
