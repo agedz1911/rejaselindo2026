@@ -36,7 +36,7 @@
                         <p class="m-0 text-xs text-gray-500 italic">*make sure the file complies with the guidelines.</p>
                     </div>
                     <div class="w-full flex text-center">
-                        <a href="https://expo.virconex-id.com/abstract/burn2025/index.php/upload_abstract" class="btn text-white bg-sky-700 hover:bg-sky-900 w-full"><i  class="fa-solid fa-upload me-1"></i> Submit Abstract</a>
+                        <a href="https://expo.virconex-id.com/abstract/rejaselindo2026" class="btn text-white bg-sky-700 hover:bg-sky-900 w-full"><i  class="fa-solid fa-upload me-1"></i> Submit Abstract</a>
                         
                     </div>
                 </div>
