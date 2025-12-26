@@ -19,6 +19,7 @@ class FlyerResource extends Resource
     protected static ?string $model = Flyer::class;
 
     protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
+    protected static ?string $navigationGroup = 'Section';
 
     public static function form(Form $form): Form
     {

@@ -1,6 +1,6 @@
 <div>
     @if ($hasActiveFlyers)
-    <div class="carousel w-full shadow-md rounded-2xl" x-data="{ 
+    <div class="carousel w-full max-w-md shadow-md rounded-2xl" x-data="{ 
          currentSlide: 0, 
          totalSlides: {{ count($flyers) }},
          interval: null 
