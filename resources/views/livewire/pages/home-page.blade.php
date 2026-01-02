@@ -4,7 +4,7 @@
         <div
             class="flex z-10 flex-col lg:flex-row justify-center items-center lg:justify-evenly gap-8 relative pt-10 md:pt-14 lg:pt-32">
             <div class="px-1 order-2 ">
-                <img src="assets/images/banner.png" class="w-full max-w-md rounded-xl" alt="Banner">
+                <livewire:section.flyer />
             </div>
             <div class="px-5 order-1 w-full lg:w-1/2">
                 <img src="assets/images/logo/logo-04.png" alt="Icon" class="max-w-xl w-full mb-5">
@@ -27,12 +27,12 @@
                     April 2<sup>nd</sup> - 4<sup>th</sup>, 2026 <br> Bali Nusa Dua Convention Center, Bali, Indonesia
                 </p>
                 <div class="mt-10">
-                    <button
-                        class=" text-white btn bg-fuchsia-600 border-none shadow-none hover:bg-fuchsia-900 rounded-lg p-6">Read
-                        More <i class="fa-solid fa-angles-right text-xs"></i></button>
+                    <a href="assets/download/announcement.pdf" target="_blank"
+                        class=" text-white btn bg-fuchsia-600 border-none shadow-none hover:bg-fuchsia-900 rounded-lg p-6"><i
+                            class="fa-solid fa-download"></i> Download Announcement </a>
                     <a href="/registration" wire:navigate
                         class="text-slate-100 btn btn-outline rounded-lg p-6 hover:bg-fuchsia-900 shadow-none"><i
-                            class="fa-solid fa-pen-to-square text-xs"></i> Regiter Now </a>
+                            class="fa-solid fa-pen-to-square text-xs"></i> Register Now </a>
                 </div>
             </div>
         </div>
@@ -125,6 +125,24 @@
                             </p>
                         </div>
                     </div>
+                </div>
+                <div
+                    class="z-10 hover:cursor-pointer max-w-sm p-6 bg-white border border-fuchsia-50 rounded-lg shadow-md hover:bg-fuchsia-100">
+                    <a href="assets/download/announcement.pdf" target="_blank">
+                        <div class="flex items-center px-5">
+                            <div class="shrink-0 bg-[#A93E89] py-3 px-4 rounded-full">
+                                <i class="fa fa-download text-2xl text-white"></i>
+                            </div>
+                            <div class="flex-1 min-w-0 ms-4">
+                                <p class="text-sm font-medium  truncate ">
+                                    Announcement
+                                </p>
+                                <p class="text-sm text-gray-500 truncate">
+                                    Download
+                                </p>
+                            </div>
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>
@@ -228,7 +246,8 @@
                                             <div class="line-clamp-6">
                                                 {!! str($welcomeMessage->description)->markdown()->sanitizeHtml() !!}
                                             </div>
-                                            <a class="hover:underline hover:text-primary" href="/welcome-messages" wire:navigate>Read More...</a>
+                                            <a class="hover:underline hover:text-primary" href="/welcome-messages"
+                                                wire:navigate>Read More...</a>
                                         </div>
                                     </div>
                                 </div>
@@ -265,7 +284,8 @@
                                             <div class="line-clamp-6">
                                                 {!! str($welcomeMessage->description)->markdown()->sanitizeHtml() !!}
                                             </div>
-                                            <a class="hover:underline hover:text-primary" href="/welcome-messages" wire:navigate>Read More...</a>
+                                            <a class="hover:underline hover:text-primary" href="/welcome-messages"
+                                                wire:navigate>Read More...</a>
                                         </div>
                                     </div>
                                 </div>
@@ -277,7 +297,8 @@
                 @endforeach
             </div>
             <div class="flex justify-center">
-                <a href="/welcome-messages" wire:navigate class="btn btn-primary rounded-lg">Read All Welcome Message <i class="fa fa-angles-right"></i></a>
+                <a href="/welcome-messages" wire:navigate class="btn btn-primary rounded-lg">Read All Welcome Message <i
+                        class="fa fa-angles-right"></i></a>
             </div>
         </div>
     </section>
