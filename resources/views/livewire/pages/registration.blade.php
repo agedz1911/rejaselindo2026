@@ -26,12 +26,12 @@
                                         Category
                                     </th>
                                     <th scope="col" class="px-6 py-3">
-                                        Early Bird Registration <br>
-                                        up to 31 December 2025
+                                        Early Bird Registration Extended <br>
+                                        up to 10 January 2026
                                     </th>
                                     <th scope="col" class="px-6 py-3">
                                         Late / Onsite Registration <br>
-                                        After 31 December 2025
+                                        After 10 January 2026
                                     </th>
                                     {{-- <th scope="col" class="px-6 py-3">
                                         Onsite Registration
@@ -79,12 +79,12 @@
                                         Category
                                     </th>
                                     <th scope="col" class="px-6 py-3">
-                                        Early Bird Registration <br>
-                                        up to 31 December 2025
+                                        Early Bird Registration Extended <br>
+                                        up to 10 January 2026
                                     </th>
                                     <th scope="col" class="px-6 py-3">
                                         Late / Onsite Registration <br>
-                                        After 31 December 2025
+                                        After 10 January 2026
                                     </th>
                                 </tr>
                             </thead>
@@ -182,12 +182,12 @@
                                         Category
                                     </th>
                                     <th scope="col" class="px-6 py-3">
-                                        Early Bird Registration <br>
-                                        up to 31 December 2025
+                                        Early Bird Registration Extended<br>
+                                        up to 10 January 2026
                                     </th>
                                     <th scope="col" class="px-6 py-3">
                                         Late / Onsite Registration <br>
-                                        After 31 December 2025
+                                        After 10 January 2026
                                     </th>
                                     {{-- <th scope="col" class="px-6 py-3">
                                         Onsite Registration
