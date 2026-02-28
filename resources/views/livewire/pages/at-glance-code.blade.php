@@ -20,24 +20,24 @@
                             <tr>
                                 <th colspan="3" class="text-center bg-base-200">WORKSHOPS</th>
                             </tr>
-                            {{-- <tr class="text-primary bg-base-200 text-xs">
-                                <th style="width: 33%;" class="text-center">Empire 3</th>
-                                <th style="width: 33%;" class="text-center">Empire 4</th>
-                                <th style="width: 33%;" class="text-center">Pasteur Convention Center 3</th>
-                            </tr> --}}
+                            <tr class="bg-base-200 text-xs">
+                                <th style="width: 33%;" class="text-center">Pecatu 1</th>
+                                <th style="width: 33%;" class="text-center">Mengwi 1 & 2</th>
+                                <th style="width: 33%;" class="text-center">Room 3</th>
+                            </tr>
                         </thead>
                         <tbody class="text-sm">
                             <tr>
                                 <td style="vertical-align: top">
                                     @foreach ($dua as $empire3)
-                                    @if ($empire3->room == 'Empire 3')
+                                    @if ($empire3->room == 'Pecatu 1')
 
                                     <a href="#modal_{{$empire3->id}}">
                                         <div
                                             class="card bg-[{{$empire3->color}}] mb-1 shadow-none transition-shadow duration-300 cursor-pointer hover:shadow-lg hover:shadow-sky-200">
                                             <div class="card-body text-center">
                                                 <p class="font-semibold">{{$empire3->time}}</p>
-                                                <h2 class="text-lg font-light text-gray-500">{{$empire3->title_ses}}
+                                                <h2 class="text-lg font-light text-gray-700">{{$empire3->title_ses}}
                                                 </h2>
                                             </div>
                                         </div>
@@ -249,19 +249,20 @@
                         <!-- head -->
                         <thead>
                             <tr>
-                                <th colspan="3" class="text-center bg-base-200">CONFERENCE DAY 1</th>
+                                <th colspan="4" class="text-center bg-base-200">CONFERENCE DAY 1</th>
                             </tr>
-                            {{-- <tr class="text-primary bg-base-200 text-xs">
-                                <th style="width: 33%;" class="text-center">Pasteur Convention Center 1 & 2</th>
-                                <th style="width: 33%;" class="text-center">Pasteur Convention Center 3</th>
-                                <th style="width: 33%;" class="text-center">Empire 5</th>
-                            </tr> --}}
+                            <tr class="text-primary bg-base-200 text-xs">
+                                <th style="width: 25%;" class="text-center">Pecatu 1</th>
+                                <th style="width: 25%;" class="text-center">Mengwi 1</th>
+                                <th style="width: 25%;" class="text-center">Mengwi 2</th>
+                                <th style="width: 25%;" class="text-center">Mengwi 6</th>
+                            </tr>
                         </thead>
                         <tbody class="text-sm">
                             <tr>
                                 <td style="vertical-align: top">
                                     @foreach ($tiga as $convention1)
-                                    @if ($convention1->room == 'Pasteur Convention Center 1 & 2')
+                                    @if ($convention1->room == 'Pecatu 1')
 
                                     <a href="#modal_{{$convention1->id}}">
                                         <div
@@ -330,7 +331,7 @@
                                 </td>
                                 <td style="vertical-align: top">
                                     @foreach ($tiga as $convention3)
-                                    @if ($convention3->room == 'Pasteur Convention Center 3')
+                                    @if ($convention3->room == 'Mengwi 1')
 
                                     <a href="#modal_{{$convention3->id}}">
                                         <div
@@ -399,7 +400,76 @@
                                 </td>
                                 <td style="vertical-align: top">
                                     @foreach ($tiga as $empire5)
-                                    @if ($empire5->room == 'Empire 5')
+                                    @if ($empire5->room == 'Mengwi 2')
+
+                                    <a href="#modal_{{$empire5->id}}">
+                                        <div
+                                            class="card bg-[{{$empire5->color}}] mb-1 shadow-none transition-shadow duration-300 cursor-pointer hover:shadow-lg hover:shadow-sky-200">
+                                            <div class="card-body text-center">
+                                                <p class="font-semibold">{{$empire5->time}}</p>
+                                                <h2 class="text-lg font-light text-gray-500">{{$empire5->title_ses}}
+                                                </h2>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    @endif
+
+                                    <div class="modal" role="dialog" id="modal_{{$empire5->id}}">
+                                        <div class="modal-box w-11/12 max-w-5xl">
+                                            <h2 class="text-lg font-semibold">{{$empire5->title_ses}}</h2>
+                                            <div class="border-y border-y-slate-200 mt-4 py-5">
+                                                <div class="flex justify-between items-start mb-3">
+                                                    <div>
+                                                        <p class="text-sm text-gray-500">Date: <span
+                                                                class="font-semibold text-black">{{Carbon\Carbon::parse($empire5->date)->format('d
+                                                                F Y')}}</span></p>
+                                                        <p class="text-sm text-gray-500">Time: <span
+                                                                class="font-semibold text-black">{{$empire5->time}}</span>
+                                                        </p>
+                                                    </div>
+                                                    <p>Room : <span
+                                                            class="font-semibold text-black">{{$empire5->room}}</span>
+                                                    </p>
+                                                </div>
+                                                <p class="text-gray-500">Session: <span
+                                                        class="font-semibold text-black">{{$empire5->title_ses}}</span>
+                                                </p>
+                                                <p class="text-gray-500">Moderator: <span
+                                                        class="font-semibold text-black">{{$empire5->moderator}}</span>
+                                                </p>
+
+                                                <div class="overflow-x-auto mt-4">
+                                                    <table class="table">
+                                                        <!-- head -->
+                                                        <thead>
+                                                            <tr>
+                                                                <th>Time</th>
+                                                                <th>Topic</th>
+                                                                <th>Speaker</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            @foreach ($empire5->schedules as $schedule)
+                                                            <tr>
+                                                                <th>{{$schedule->time_speaker}}</th>
+                                                                <td>{{$schedule->topic_title}}</td>
+                                                                <td>{{$schedule->speaker}}</td>
+                                                            </tr>
+                                                            @endforeach
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                            <div class="modal-action">
+                                                <a href="#" class="btn btn-error">Close</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    @endforeach
+                                </td>
+                                <td style="vertical-align: top">
+                                    @foreach ($tiga as $empire5)
+                                    @if ($empire5->room == 'Mengwi 6')
 
                                     <a href="#modal_{{$empire5->id}}">
                                         <div
@@ -481,19 +551,20 @@
                         <!-- head -->
                         <thead>
                             <tr>
-                                <th colspan="3" class="text-center bg-base-200">CONFERENCE DAY 2</th>
+                                <th colspan="4" class="text-center bg-base-200">CONFERENCE DAY 2</th>
                             </tr>
-                            {{-- <tr class="text-primary bg-base-200 text-xs">
-                                <th style="width: 33%;" class="text-center">Pasteur Convention Center 1 & 2</th>
-                                <th style="width: 33%;" class="text-center">Pasteur Convention Center 3</th>
-                                <th style="width: 33%;" class="text-center">Empire 5</th>
-                            </tr> --}}
+                            <tr class="text-primary bg-base-200 text-xs">
+                                <th style="width: 25%;" class="text-center">Pecatu 1</th>
+                                <th style="width: 25%;" class="text-center">Mengwi 1</th>
+                                <th style="width: 25%;" class="text-center">Mengwi 2</th>
+                                <th style="width: 25%;" class="text-center">Mengwi 6</th>
+                            </tr>
                         </thead>
                         <tbody class="text-sm">
                             <tr>
-                                <td colspan="3" style="vertical-align: top">
+                                <td style="vertical-align: top">
                                     @foreach ($empat as $convention1)
-                                    @if ($convention1->room == 'Pasteur Convention Center 1 & 2')
+                                    @if ($convention1->room == 'Pecatu 1')
 
                                     <a href="#modal_{{$convention1->id}}">
                                         <div
@@ -560,9 +631,9 @@
                                     </div>
                                     @endforeach
                                 </td>
-                                {{-- <td style="vertical-align: top">
+                                <td style="vertical-align: top">
                                     @foreach ($empat as $convention3)
-                                    @if ($convention3->room == 'Pasteur Convention Center 3')
+                                    @if ($convention3->room == 'Mengwi 1')
 
                                     <a href="#modal_{{$convention3->id}}">
                                         <div
@@ -631,7 +702,7 @@
                                 </td>
                                 <td style="vertical-align: top">
                                     @foreach ($empat as $empire5)
-                                    @if ($empire5->room == 'Empire 5')
+                                    @if ($empire5->room == 'Mengwi 2')
 
                                     <a href="#modal_{{$empire5->id}}">
                                         <div
@@ -697,7 +768,76 @@
                                         </div>
                                     </div>
                                     @endforeach
-                                </td> --}}
+                                </td>
+                                <td style="vertical-align: top">
+                                    @foreach ($empat as $empire5)
+                                    @if ($empire5->room == 'Mengwi 6')
+
+                                    <a href="#modal_{{$empire5->id}}">
+                                        <div
+                                            class="card bg-[{{$empire5->color}}] mb-1 shadow-none transition-shadow duration-300 cursor-pointer hover:shadow-lg hover:shadow-sky-200">
+                                            <div class="card-body text-center">
+                                                <p class="font-semibold">{{$empire5->time}}</p>
+                                                <h2 class="text-lg font-light text-gray-500">{{$empire5->title_ses}}
+                                                </h2>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    @endif
+
+                                    <div class="modal" role="dialog" id="modal_{{$empire5->id}}">
+                                        <div class="modal-box w-11/12 max-w-5xl">
+                                            <h2 class="text-lg font-semibold">{{$empire5->title_ses}}</h2>
+                                            <div class="border-y border-y-slate-200 mt-4 py-5">
+                                                <div class="flex justify-between items-start mb-3">
+                                                    <div>
+                                                        <p class="text-sm text-gray-500">Date: <span
+                                                                class="font-semibold text-black">{{Carbon\Carbon::parse($empire5->date)->format('d
+                                                                F Y')}}</span></p>
+                                                        <p class="text-sm text-gray-500">Time: <span
+                                                                class="font-semibold text-black">{{$empire5->time}}</span>
+                                                        </p>
+                                                    </div>
+                                                    <p>Room : <span
+                                                            class="font-semibold text-black">{{$empire5->room}}</span>
+                                                    </p>
+                                                </div>
+                                                <p class="text-gray-500">Session: <span
+                                                        class="font-semibold text-black">{{$empire5->title_ses}}</span>
+                                                </p>
+                                                <p class="text-gray-500">Moderator: <span
+                                                        class="font-semibold text-black">{{$empire5->moderator}}</span>
+                                                </p>
+
+                                                <div class="overflow-x-auto mt-4">
+                                                    <table class="table">
+                                                        <!-- head -->
+                                                        <thead>
+                                                            <tr>
+                                                                <th>Time</th>
+                                                                <th>Topic</th>
+                                                                <th>Speaker</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            @foreach ($empire5->schedules as $schedule)
+                                                            <tr>
+                                                                <th>{{$schedule->time_speaker}}</th>
+                                                                <td>{{$schedule->topic_title}}</td>
+                                                                <td>{{$schedule->speaker}}</td>
+                                                            </tr>
+                                                            @endforeach
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                            <div class="modal-action">
+                                                <a href="#" class="btn btn-error">Close</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    @endforeach
+                                </td>
                             </tr>
 
                         </tbody>
@@ -705,6 +845,12 @@
                 </div>
             </div>
 
+        </div>
+        <div class="mt-10">
+            <p class="text-sm text-error italic">
+                Note: <br>
+                The scientific schedule is provisional and may be adjusted as required.
+            </p>
         </div>
     </section>
 </div>
