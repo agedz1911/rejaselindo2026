@@ -375,7 +375,7 @@
         const currentTime = new Date();
 
         // Set new date 30 days from now
-        const targetTime = new Date(2026, 4, 2, 8, 0);
+        const targetTime = new Date(2026, 3, 2, 0, 8, 0); // April 2, 2026 at 00:00:00
 
         // Update countdown time
         function updateCountdown() {
