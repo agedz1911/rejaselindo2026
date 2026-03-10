@@ -125,10 +125,12 @@
                                         Category
                                     </th>
                                     <th scope="col" class="px-6 py-3">
-                                        Other Surgeons / General Practitioners (GP)
+                                        Early Bird Registration Extended <br>
+                                        up to 10 January 2026
                                     </th>
                                     <th scope="col" class="px-6 py-3">
-                                        Nurse / Medical Students
+                                        Late / Onsite Registration <br>
+                                        After 10 January 2026
                                     </th>
 
                                 </tr>
