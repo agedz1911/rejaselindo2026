@@ -157,7 +157,9 @@
                 </div>
             </div>
             <div class="rounded-xl bg-white shadow-lg">
-                <img src="assets/images/bali/4.jpg" class="w-full rounded-xl object-cover h-full sepia-50" alt="bali 3">
+                <video class="w-full h-fit rounded-xl" src="assets/images/video.mp4" autoplay muted controls width="600">
+                    Your browser does not support the video tag.
+                </video>
             </div>
         </div>
     </section>
