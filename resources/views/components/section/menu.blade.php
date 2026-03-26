@@ -37,7 +37,7 @@
                     at Glance <i class="fa-solid fa-angle-right"></i></a>
             </li>
             <li>
-                <a href="#" wire:navigate
+                <a href="/scientific-schedule" wire:navigate
                     class="{{ request()->is('scientific-schedule') ? 'text-[#c01e8f]' : '' }} justify-between hover:text-violet-900">Scientific
                     Schedule <i class="fa-solid fa-angle-right"></i></a>
             </li>
