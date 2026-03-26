@@ -55,7 +55,7 @@ class ScheduleSessionResource extends Resource
                         'Mengwi 1' => 'Mengwi 1',
                         'Mengwi 2' => 'Mengwi 2',
                         'Mengwi 6' => 'Mengwi 6',
-                        'Mengwi 1 & 2' => 'Mengwi 1 & 2',
+                        'RSUP Ngoerah' => 'RSUP Ngoerah',
                     ])
                     ->searchable()
                     ->required()

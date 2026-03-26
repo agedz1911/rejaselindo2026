@@ -116,50 +116,52 @@
                         </div>
                     </div>
                     @else
-                    <h2 class="uppercase font-semibold text-[#0059A8] mb-2 mt-5">{{$category}}</h2>
-                    <div class="relative overflow-x-auto shadow sm:rounded-lg ">
-                        <table class="w-full text-sm text-left rtl:text-right text-gray-500 ">
-                            <thead class=" text-white uppercase text-center bg-sky-900 ">
-                                <tr>
-                                    <th scope="col" class="px-6 py-3">
-                                        Category
-                                    </th>
-                                    <th scope="col" class="px-6 py-3">
-                                        Early Bird Registration Extended <br>
-                                        up to 10 January 2026
-                                    </th>
-                                    <th scope="col" class="px-6 py-3">
-                                        Late / Onsite Registration <br>
-                                        After 10 January 2026
-                                    </th>
+                    <div class="pt-10" id="workshop">
+                        <h2 class="uppercase font-semibold text-[#0059A8] mb-2 mt-5">{{$category}}</h2>
+                        <div class="relative overflow-x-auto shadow sm:rounded-lg ">
+                            <table class="w-full text-sm text-left rtl:text-right text-gray-500 ">
+                                <thead class=" text-white uppercase text-center bg-sky-900 ">
+                                    <tr>
+                                        <th scope="col" class="px-6 py-3">
+                                            Category
+                                        </th>
+                                        <th scope="col" class="px-6 py-3">
+                                            Early Bird Registration Extended <br>
+                                            up to 10 January 2026
+                                        </th>
+                                        <th scope="col" class="px-6 py-3">
+                                            Late / Onsite Registration <br>
+                                            After 10 January 2026
+                                        </th>
 
-                                </tr>
-                            </thead>
-                            <tbody>
-                                @foreach ($regLocals as $regLocal)
-                                @if ($regLocal->category_reg == $category)
-                                <tr class="bg-white border-b  border-gray-200 hover:bg-sky-50 ">
-                                    <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap">
-                                        {{$regLocal->title}}
-                                    </th>
-                                    <td class="px-6 py-4 text-center">
-                                        {{$regLocal->early_bird_reg != 0 ? 'IDR ' . number_format($regLocal->early_bird_reg,
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach ($regLocals as $regLocal)
+                                    @if ($regLocal->category_reg == $category)
+                                    <tr class="bg-white border-b  border-gray-200 hover:bg-sky-50 ">
+                                        <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap">
+                                            {{$regLocal->title}}
+                                        </th>
+                                        <td class="px-6 py-4 text-center">
+                                            {{$regLocal->early_bird_reg != 0 ? 'IDR ' . number_format($regLocal->early_bird_reg,
                                         0, ',', '.') : ''}}
-                                    </td>
-                                    <td class="px-6 py-4 text-center">
-                                        {{$regLocal->normal_reg != 0 ? 'IDR' . number_format($regLocal->normal_reg, 0, ',',
+                                        </td>
+                                        <td class="px-6 py-4 text-center">
+                                            {{$regLocal->normal_reg != 0 ? 'IDR' . number_format($regLocal->normal_reg, 0, ',',
                                         '.') : ''}}
-                                    </td>
+                                        </td>
 
-                                </tr>
-                                @endif
-                                @endforeach
-                            </tbody>
-                        </table>
-                        <div class="relative mt-2">
-                            <a href="https://expo.virconex-id.com/registration/rejaselindo2026"
-                                class="bg-[#A93E89] text-white hover:bg-sky-800 p-3 rounded-xl mb-3 float-end"><i
-                                    class="fa-solid fa-list mx-3"></i>Register Now!</a>
+                                    </tr>
+                                    @endif
+                                    @endforeach
+                                </tbody>
+                            </table>
+                            <div class="relative mt-2">
+                                <a href="https://expo.virconex-id.com/registration/rejaselindo2026"
+                                    class="bg-[#A93E89] text-white hover:bg-sky-800 p-3 rounded-xl mb-3 float-end"><i
+                                        class="fa-solid fa-list mx-3"></i>Register Now!</a>
+                            </div>
                         </div>
                     </div>
                     @endif
