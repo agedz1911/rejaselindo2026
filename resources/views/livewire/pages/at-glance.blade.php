@@ -22,7 +22,7 @@
                             </tr>
                             <tr class="bg-base-200 text-xs">
                                 <th style="width: 33%;" class="text-center">Mengwi 1</th>
-                                <th style="width: 33%;" class="text-center">Mengwi 2</th>
+                                <th style="width: 33%;" class="text-center">Mengwi 6</th>
                                 <th style="width: 33%;" class="text-center">Teater Universitas Udayana</th>
                             </tr>
                         </thead>
@@ -99,7 +99,7 @@
                                 </td>
                                 <td style="vertical-align: top">
                                     @foreach ($dua as $empire4)
-                                    @if ($empire4->room == 'Mengwi 2')
+                                    @if ($empire4->room == 'Mengwi 6')
 
                                     <a href="#modal_{{$empire4->id}}">
                                         <div
